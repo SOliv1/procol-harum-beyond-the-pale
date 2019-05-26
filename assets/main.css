@@ -1,22 +1,22 @@
+/* @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900) */
+
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Containers */
-
-.container-wrapper {}
 
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
 
-.alert-container {}
 
 .callout-container {
     height: 100vh;
 
-    background: url('../.jpg') no-repeat bottom right fixed;
+    background: url('../assets/images/poco-8.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -35,7 +34,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .content-container {
@@ -65,8 +64,13 @@ body {
     border: 0;
 }
 
-.navbar .navbar-brand {
+.navbar .navbar-logo {
     font-weight: bold;
+    font-size: medium;
+    font-style: oblique;
+    color: #ce5a2b;
+    
+    
 }
 
 .navbar .navbar-nav a {
@@ -76,28 +80,46 @@ body {
 
 /* Jumbotron */
 
-.jumbotron {
-    background-color: transparent;
-}
 
-.jumbotron h1 {
-    color: white;
+     h2 {
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
+    color:#e3de2b;
+    
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
     margin: 25px 0;
 }
 
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
+
+.jumbotron-header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lato', serif;
+    font-size: 72px;
+    line-height: 80px;
+}    
+ /*-- Colors --*/
+ 
+ .jumbotron {
+    background-color: transparent;
 }
 
+ 
+ .jumbotron .lead {
+     color: white;
+}
+ 
+.jumbotron-header span {
+    color: #ce5a2b;
+}
+
+.jumbotron-header  {
+    color: #e3de2b;
+}
+    
+    
 /* Block dividers */
 
 .block-divider {
@@ -119,105 +141,3 @@ body {
     width: 35px;
 }
 
-/* Buttons */
-
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-
-/* Alert */
-
-.alert-container .col-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.site-wide-alert {
-    color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-}
-
-/* Page Headers */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-/* Quotes */
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
-/* Features */
-
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-}
-
-/*section-features-3-my-styles*/
-
-body {
-     font-family: 'Open Sans', sans-serif;
-    
-}
-
-.container-wrapper--red {
-    background-color: #3f4146bd;
-    color: white;
-}
-
-.feature {
-    text-align: justify;
-    margin-bottom: 40px;
-}
-
-.badge-success {
-    color: #fff;
-    background-color: #bd2130;
-}

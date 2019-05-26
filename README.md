@@ -19,13 +19,20 @@ provide access to videos and music samples from the past.
 
 ### Credits:
 
-My inspiration and Images come from:-
+My inspiration for my website and the Images come from:-
 
 1) website frameworks / structures 
    i)   My Whiskey and CV projects in 
   ii)   Interactive front end modules-The Code Institute
-  iii) All the support and encouragement from the Slack community and my Mentor.
-        They know who they are.  Much appreciated and valued.
+  iii) All the support and encouragement from the Slack community.
+       They know who they are.  Much appreciated and valued.  A particular mention
+        for Anna Gilhespy - see below:-
+   iv) Anna Gilhespy for her marvellous training videos, great conference calls, and help on Slack.  She seems to be always
+        there when I needed her and an absolute treasure.
+         See one of her videos below all about bootstrap containers.
+         https://www.youtube.com/watch?v=zDpCejbl1sU&feature=youtu.be 
+     V)  My Mentor Seun who is most encouraging and was there to keep me on track whilst working through my project.
+           
 
 2) Cheesecakewebsite - http://www.cheesecakeband.com
 
