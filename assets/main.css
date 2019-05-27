@@ -42,6 +42,25 @@ body {
     padding-bottom: 75px;
 }
 
+ /*-- Imagess --*/
+    
+ .wrapper {
+    height: 100px;
+    width: 100px;
+}
+
+.image {
+    background-image: url("image.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+
+
+
+
 /* Navbar */
 
 .navalert-container {
@@ -78,7 +97,7 @@ body {
 }
 
 
-/* Jumbotron */
+/*-- Jumbotron --*/
 
 
      h2 {
@@ -100,7 +119,7 @@ body {
     font-size: 72px;
     line-height: 80px;
 }    
- /*-- Colors --*/
+ /*-- Colours --*/
  
  .jumbotron {
     background-color: transparent;
@@ -119,8 +138,9 @@ body {
     color: #e3de2b;
 }
     
+
     
-/* Block dividers */
+/*-- Block dividers --*/
 
 .block-divider {
     width: 75px;
@@ -141,3 +161,67 @@ body {
     width: 35px;
 }
 
+
+/*-- About Section --*/
+
+.about-header  {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ce5a2b;
+}
+
+
+
+/*-- Contact info --*/
+
+.contact-info {
+    
+}
+
+/*-- Social media links --*/
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.social-links ul li {
+    display: inline-block;
+}
+
+
+.social-links li a i:hover {
+    background: #ce5a2b;
+} 
+#footer-details {
+    margin: 20px;
+}
+
+
+/*-- Media queries --*/
+
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
