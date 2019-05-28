@@ -12,6 +12,9 @@ body {
     color: white;
 }
 
+.container--about-container {
+     
+}
 .callout-container {
     height: 100vh;
     
@@ -48,7 +51,8 @@ body {
 }
 
 
- /*-- Imagess --
+
+ /*-- Images --
     
  .wrapper {
     height: 100px;
@@ -103,11 +107,10 @@ body {
 /*-- Jumbotron --*/
 
 
-     h2 {
+     .h2 {
     font-weight: bold;
     margin-bottom: 30px;
-    color:#e3de2b;
-    
+    font-size: medium;
 }
 
 .jumbotron .lead {
@@ -121,6 +124,7 @@ body {
     font-family: 'Lato', serif;
     font-size: 72px;
     line-height: 80px;
+    
 }    
  /*-- Colours --*/
  
@@ -128,6 +132,9 @@ body {
     background-color: transparent;
 }
 
+ .callout-header {
+     color:#f05f40;
+ }
  
  .jumbotron .lead {
      color: white;
@@ -137,10 +144,9 @@ body {
     color: #ce5a2b;
 }
 
-.jumbotron-header  {
-    color: #e3de2b;
+.jumbotron-header {
+color:#ffc107; 
 }
-    
 
 .happenings-header {
     color:#444;
