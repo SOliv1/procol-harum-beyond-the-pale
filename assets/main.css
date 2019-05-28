@@ -5,12 +5,33 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/*-- section-generals --*/
+
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 /*-- Containers --*/
 
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
+
+.container-wrapper--dark {
+    background-color: #311b92;
+    color: white;
+}
+
+.container-wrapper--pale {
+    background-color: #ffc107;
+    color: white;
+}
+
+
 
 .container--about-container {
      
@@ -51,8 +72,7 @@ body {
 }
 
 
-
- /*-- Images --
+ /*-- Images --*/
     
  .wrapper {
     height: 100px;
@@ -65,7 +85,7 @@ body {
     background-repeat: no-repeat;
     height: 100%;
 }  
---*/
+
 
 
 /*-- Navalert - Navbars --*/
@@ -106,7 +126,6 @@ body {
 
 /*-- Jumbotron --*/
 
-
      .h2 {
     font-weight: bold;
     margin-bottom: 30px;
@@ -133,7 +152,7 @@ body {
 }
 
  .callout-header {
-     color:#f05f40;
+     color: #f05f40;
  }
  
  .jumbotron .lead {
@@ -145,13 +164,16 @@ body {
 }
 
 .jumbotron-header {
-color:#ffc107; 
+    color: #ffc107; 
 }
 
 .happenings-header {
-    color:#444;
+    color: #444;
 }
 
+.anthology-header {
+    color: #fff;
+}
     
 /*-- Block dividers --*/
 
@@ -174,13 +196,17 @@ color:#ffc107;
     width: 35px;
 }
 
+.block-divider .block-anthology--short {
+    width: 35px;
+    background-color: #fff;
+}
+
 
 /*-- About section --*/
 
 .about-header  {
     font-weight: bold;
     margin-bottom: 30px;
-    color: #ce5a2b;
 }
 
 
@@ -190,11 +216,19 @@ color:#ffc107;
     margin-bottom: 40px;
 }
 
-/*-- Contact info --*/
+/*-- Anthology container --*/
 
-.contact-info {
-    
+.anthology-container {
+    color: #4527a0;
 }
+
+.anthology-header  {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+
 
 /*-- Social media links --*/
 
@@ -222,7 +256,6 @@ color:#ffc107;
 .social-links ul li {
     display: inline-block;
 }
-
 
 .social-links li a i:hover {
     background: #ce5a2b;
