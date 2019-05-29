@@ -216,6 +216,7 @@ p {
     margin-bottom: 40px;
 }
 
+
 /*-- Anthology container --*/
 
 .anthology-container {
@@ -225,9 +226,13 @@ p {
 .anthology-header  {
     font-weight: bold;
     margin-bottom: 30px;
+    color: inherit
 }
 
-
+.anthology .lead{
+    color: #fff;
+    background-color: #4527a0;
+}
 
 
 /*-- Social media links --*/
