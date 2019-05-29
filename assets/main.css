@@ -237,11 +237,11 @@ p {
 
 /*-- Social media links --*/
 
-.social-links {
+    .social-links {
     padding-bottom: 15px;
 }
 
-.social-links li a i {
+ .social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -257,15 +257,14 @@ p {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
-.social-links ul li {
-    display: inline-block;
+    .social-links li {
+    display: inline;
 }
 
-.social-links li a i:hover {
+    .social-links li a i:hover {
     background: #ce5a2b;
 } 
-#footer-details {
+   #footer-details {
     margin: 20px;
 }
 
