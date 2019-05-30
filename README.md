@@ -43,11 +43,28 @@ My inspiration and Images come from:-
     iv) Audio and visual links to YouTube / Spotify / Amazon websites
     
     
-4) I Made sure to use bootstrap to make my website responsive from a mobile 
+
+    
+## Features
+
+
+  1) I Make sure to use bootstrap which allows my website responsive from a mobile 
     first approach right up to a desktop.  
     To refresh my browser I used the command + shift + R on my Mac.to update my 
-    website changes.  
+    website changes.  This is imperative in order to refresh the page fully and 
+    update the changes made as I work through my project.
     
+    2) As I work on my project, I make sure to push to github frequently - I note that I am able to fix
+    various bugs along the way for example, re-aligning social-links to display in-line instead
+    of in a column and in two rows instead of one to accomodate all icons on display. This 
+    seems to be the difference between my cloud9 local and github - small adjustments
+    can be made to keep things in check.
+    
+    3) I use font awesome icons for my social icons on 16 px increasing the size
+    ensures user ability with one finger specifically on mobile first; A user-friendly experience.
+    
+
+
 
 
 ------

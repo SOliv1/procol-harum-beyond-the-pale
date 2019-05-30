@@ -7,14 +7,12 @@ body {
 
 /*-- section-generals --*/
 
-
-
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/*-- Containers --*/
+/* Containers - creates a scroll flexible background*/
 
 .container-wrapper--red {
     background-color: #f05f40;
@@ -71,7 +69,6 @@ p {
     
 }
 
-
  /*-- Images --*/
     
  .wrapper {
@@ -85,7 +82,6 @@ p {
     background-repeat: no-repeat;
     height: 100%;
 }  
-
 
 
 /*-- Navalert - Navbars --*/
@@ -115,8 +111,6 @@ p {
     font-size: medium;
     font-style: oblique;
     color: #ce5a2b;
-    
-    
 }
 
 .navbar .navbar-nav a {
@@ -174,6 +168,16 @@ p {
 .anthology-header {
     color: #fff;
 }
+   
+.anthology .header {
+    color: #ffc107;
+} 
+
+.anthology .header span {
+    color: #ce5a2b;
+} 
+
+
     
 /*-- Block dividers --*/
 
@@ -196,9 +200,9 @@ p {
     width: 35px;
 }
 
-.block-divider .block-anthology--short {
+.block-divider .white--short {
     width: 35px;
-    background-color: #fff;
+    background-color: white;
 }
 
 
@@ -206,7 +210,7 @@ p {
 
 .about-header  {
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
@@ -219,23 +223,32 @@ p {
 
 /*-- Anthology container --*/
 
-.anthology-container {
+.container-fluid .anthology-container {
     color: #4527a0;
 }
 
-.anthology-header  {
+.anthology-header {
     font-weight: bold;
+    margin-top: 30px;
     margin-bottom: 30px;
-    color: inherit
 }
 
-.anthology .lead{
+.anthology .lead {
     color: #fff;
     background-color: #4527a0;
 }
 
+.anthology .header {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+    
+
 
 /*-- Social media links --*/
+
+
 
     .social-links {
     padding-bottom: 15px;
@@ -246,7 +259,7 @@ p {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -265,7 +278,7 @@ p {
     background: #ce5a2b;
 } 
    #footer-details {
-    margin: 20px;
+    margin: 25px;
 }
 
 
