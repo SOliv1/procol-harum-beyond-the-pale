@@ -3,7 +3,9 @@
 
 body {
     font-family: 'Lato', sans-serif;
-}
+    
+   
+
 
 /*-- section-generals --*/
 
@@ -29,7 +31,10 @@ p {
     color: white;
 }
 
-
+.container-fluid .anthology-container {
+    margin-top: 35 px;
+    text-shadow: 
+}
 
 .container--about-container {
      
@@ -248,7 +253,12 @@ p {
 
 /*-- Social media links --*/
 
-
+body:after {
+    content: "sign up";
+    display: block;
+    margin-top: 2em;
+    text-align: center;
+}
 
     .social-links {
     padding-bottom: 15px;
