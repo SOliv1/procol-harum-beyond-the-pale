@@ -201,11 +201,11 @@ p {
     background-color: white;
 }
 
-.block-divider--short {
+.block-divider-short {
     width: 35px;
 }
 
-.block-divider .white--short {
+.block-divider .white-short {
     width: 35px;
     background-color: white;
 }
