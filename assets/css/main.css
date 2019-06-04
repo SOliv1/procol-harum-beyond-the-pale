@@ -1,0 +1,351 @@
+/* @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900) */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Containers - creates a scroll flexible background*/
+
+.container-fluid .callout-container {
+    height: 100vh;
+    background: url('../assets/images/poco-8.png') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.opaque {
+    height: 100vh;
+    background: url('assets/images/backstageband.png') no-repeat bottom right fixed;
+}
+
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+/*-- Navalert - Navbars --*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-logo {
+    font-weight: bold;
+    font-size: medium;
+    font-style: oblique;
+    color: #ce5a2b;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+/*-- Jumbotron-text center --*/
+
+.h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+}
+
+.jumbotron-header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lato', serif;
+    font-size: 72px;
+    line-height: 80px;
+
+}
+
+/*-- Colours --*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.callout-header {
+    color: #f05f40;
+}
+
+.jumbotron .lead {
+    color: white;
+}
+
+.jumbotron-header span {
+    color: #ce5a2b;
+}
+
+.jumbotron-header {
+    color: #ffc107;
+}
+
+.happenings-header {
+    color: #444;
+}
+
+.anthology-header {
+    color: #fff;
+}
+
+.anthology .header {
+    color: #ffc107;
+}
+
+.anthology .header span {
+    color: #ce5a2b;
+}
+
+/*-- Content-wrappers --*/
+
+.container-wrapper .red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.container-wrapper .pale {
+    background-color: #ffc107;
+    color: white;
+}
+
+.container-wrapper .dark {
+    background-color: #673ab7;
+    color: white;
+}
+
+/*-- Content-container --*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 25px;
+
+}
+
+.container-fluid .about-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-fluid .anthology-container {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*-- Images --*/
+
+.img .style .height {
+    background-image: url("../assets/images/poco-9.png");
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.img .style .height {
+    background-image: url("../assets/images/poco-6.png");
+}
+
+/*-- Block dividers --*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider .orange {
+    background-color: #f05f40;
+}
+
+.block-divider .white {
+    background-color: white;
+}
+
+.block-divider .short {
+    width: 35px;
+}
+
+.block-divider .white-short {
+    width: 35px;
+    background-color: white;
+}
+
+
+/*-- About section --*/
+
+.section .id-about {}
+
+.about-row {
+    padding-bottom: 10%;
+    font-size: 1.75em;
+    line-height: 2;
+}
+
+.h2 {
+    margin-left: 15px;
+    margin-top: 15%;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.about-header {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.p {
+    box-sizing: border-box;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.about-row .about-p {
+    font-size: .8em;
+    margin: 40px 0px 40px 0px;
+}
+
+
+/*-- Anthology container --*/
+
+.container .anthology-container {
+    color: #4527a0;
+}
+
+.anthology-header {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.anthology .lead {
+    color: #fff;
+    background-color: #4527a0;
+}
+
+.anthology .header {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+
+/*-- Social media links --*/
+
+body:after {
+    content: "sign up";
+    display: block;
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a i:hover {
+    background: #ce5a2b;
+}
+
+#footer-details {
+    margin: 25px;
+}
+
+
+/*-- Media queries --*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
