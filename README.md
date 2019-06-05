@@ -6,7 +6,7 @@ This is a website that has been given a complete facelift.  It has a bright, sas
 I think I have provided a UX experience targeted at fans but also to encourage new visitors to the site.
 The Audience has a clearer understanding of where they can access information in a simplified user-friendly way.
 
-## Essentially, this part is my sales pitch.
+##  My sales pitch.
 
 ### UX
 
