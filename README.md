@@ -187,9 +187,10 @@ them. A new facebook page regularly updated has been given pride of place on the
 Making this website as user friendly as possible is key as many of the legions of fans are of a certain age where computers were not necessarily a part of their lives. Hence also, the site should appeal to young and professionals alike. Those who have a deep appreciation of real music and musicians, should be able to feel comfortable using it, without feeling it is a stuffy place for a past generation. 
 Users should be able to quickly click and find relevant content.
 
-On the other end of the spectrum older generations may daunted by technology and therefore want to be made to feel as comfortable and also happy to return time and again to a friendly atmospheric place. This objectiive of this site is to make the user feel at home here. 
+On the other end of the spectrum older generations daunted by technology, are made to feel as comfortable as possible and want to return time and again to a friendly atmospheric place. The objectiive of this site is to make the user feel at home. 
 
-#### Soft furnishings, warm light, a little bit of psychedelic. This website should appeal to a wide and diverse age group without excluding anyone. Target audience 20s and 30s right up to those in their 70s.
+#### Atmosphere/Mood - a website for everyone who loves the era of music from an iconic 1960s Band
+Soft furnishings, warm light, a little bit of psychedelic. This website should appeal to a wide and diverse age group without excluding anyone. Target audience 20s and 30s right up to those in their 70s.
 
 
 ### Existing Features
