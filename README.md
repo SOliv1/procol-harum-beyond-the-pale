@@ -257,9 +257,12 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-To deploy the website - I commited to github and started 
+To deploy the website - I commited to github and started the process of pushing
+to git hub.  I git add . ; git -m "commit content"; git status; git push to remote. 
+Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary changes.
+Fortunately I am able to git log then set to a previous commit on github.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+**In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
