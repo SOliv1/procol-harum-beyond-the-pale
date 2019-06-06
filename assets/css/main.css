@@ -8,7 +8,7 @@ body {
 
 .container-fluid .callout-container {
     height: 100vh;
-    background: url('../assets/images/poco-8.png') no-repeat bottom right fixed;
+    background: url('assets/images/poco-8.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,11 +29,6 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-}
-
-.opaque {
-    height: 100vh;
-    background: url('assets/images/backstageband.png') no-repeat bottom right fixed;
 }
 
 
