@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-@@ -14,16 +14,21 @@ The Audience has a clearer understanding of where they can access information in
-are interested to know what is happening performance wise both at local venues, national and on tour.  The band are keen to keep the audience
-informed with their activities.
-=======
 
- # README.md
-# Brief for Poco Harum
+ ## README.md
+## Brief for Poco Harum
 
 This is a website that has been given a complete facelift.  It has a bright, sassy appearance while capturing the "Swinging 60s" mood!
 I think I have provided a UX experience targeted at fans but also to encourage new visitors to the site.
@@ -14,7 +9,6 @@ The Audience has a clearer understanding of where they can access information in
 ##  My sales pitch.
 
 ### UX
-
 1) This website is for a target audience who appreciate the music and want to follow an iconic band from the 1960s. The fans both old and new
 are interested to know what is happening performance wise both at local venues, national and on tour.  The band are keen to keep the audience
 informed with their activities.
@@ -29,22 +23,18 @@ provide access to videos and music samples from the past.
 
 
 ### Credits:
-
 My inspiration and Images come from:-
-
-
 1) website frameworks / structures
    i)   My Whiskey and CV projects in
   ii)   Interactive front end modules-The Code Institute
   ii)   Interactive front end modules-The Code Institute - so credit goes to the authors for my inspiration from these
         projects and I thank them.
-  iii) All the support and encouragement from the Slack community and my Mentor.
-        They know who they are.  Much appreciated and valued.
+  iii) All the support and encouragement from the Slack community, in particular another student Anna Greaves, who is an abslote treasure when it comes to explaining / clarifying different aspects I did not quite understand. I value greatly her support on slack among other very helpful students; and my Mentor. The Slack community are very much appreciated and I value them greatly.
 
-@ -38,6 +43,10 @@ My inspiration and Images come from:-
+ My inspiration and Images come from:-
     iv) Audio and visual links to YouTube / Spotify / Amazon websites
-=======
-1) website frameworks / structures
+    
+2) website frameworks / structures
    i)   My Whiskey and CV projects in
   ii)   Interactive front end modules-The Code Institute - so credit goes to the authors for my             inspiration from these
         projects and I thank them.
@@ -281,23 +271,33 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-To deploy the website - I commited to github and started the process of pushing
-<<<<<<< HEAD
-to git hub.  I git add . ; git -m "commit content"; git status; git push to remote.  Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary changes.
-=======
-to git hub.  I git add . ; git -m "commit content"; git status; git push to remote.
+To deploy the website - I commited to github and started the process of pushingto git hub.  I git add . ; git -m "commit content"; git status; git push to remote.
 Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary changes.
->>>>>>> 38e7a678d74025ba064d0cc17fbc36d31ec30237
-Fortunately I am able to git log then set to a previous commit on github.
+
+## Resolving Push / Pull Merge Conflicts
+At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:- 
+i) The areas marked with >>>> are marking where your local files are and the ones pulled from     github are different.
+
+ii) Cloud9 doesn't know which ones you want to keep and which to get rid of.
+
+iii) So go through all those places, remove any code you don't need any more. and take out all the >>>> lines with the numbers and letters in until your code looks the way you need it to to keep moving forward.
+
+iv) Once they are all removed then save all the files.
+then Git add, git commit with the message "fixed merge conflicts"
+then push it to github so everything is in sync.
+
+V) Once you have done that in your terminal (master | MERGING)  should return to just (master) and you are good to keep moving forward again. (edited) 
+
+Fortunately I am able to git log then set to a previous commit on github and move on.
 
 **In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
-<<<<<<< HEAD
 Different values for environment variables (Heroku Config Vars)?
-=======
-Different values for environment variables (Heroku Config Vars)?
+
 Different configuration files?
+
 Separate git branch?
+
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
@@ -305,4 +305,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 
->>>>>>> 38e7a678d74025ba064d0cc17fbc36d31ec30237
+
