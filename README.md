@@ -27,9 +27,9 @@ My inspiration and Images come from:-
 1) website frameworks / structures
    i)   My Whiskey and CV projects in
   ii)   Interactive front end modules-The Code Institute
-  ii)   Interactive front end modules-The Code Institute - so credit goes to the authors for my inspiration from these
+  ii)   Interactive front end modules-The Code Institute, so credit goes to the authors for my   inspiration from these
         projects and I thank them.
-  iii) All the support and encouragement from the Slack community, in particular another student Anna Greaves, who is an abslote treasure when it comes to explaining / clarifying different aspects I did not quite understand. I value greatly her support on slack among other very helpful students; and my Mentor. The Slack community are very much appreciated and I value them greatly.
+  iii) All the support and encouragement from the Slack community, in particular another student Anna Greaves, who articularly explains / clarifys different aspects I may not quite understand.    Her support on Slack among other very helpful students is much appreciated; and my Mentor.  Slack  are a very much valued and recourceful community.
 
  My inspiration and Images come from:-
     iv) Audio and visual links to YouTube / Spotify / Amazon websites
@@ -55,11 +55,7 @@ http://starling.rinet.ru/music/procol.htm
     iii)  Beyond the Deep website
     iv) Audio and visual links to YouTube / Spotify / Amazon websites
 
-
-
-
 ## Features
-
   1) I use bootstrap which allows my website to be responsive from a mobile
     first approach right up to a desktop.
     To refresh my browser I used a hard command + shift + R on my Mac.to update my
@@ -109,10 +105,10 @@ CSS styles for Social links with hover effect and ease-in-out:
 #footer-details {
     margin: 25px;
 }
+### File Paths
+I had an issue with my file structure. My images were in the css folder instead of a separate images folder ( *see illustration below) in the main assets folder and my css folder was not properly represented inside my assets folder,  so in order to remedy this, I learned that "File Paths are like directions". I direct the files where to look for other files within my file structure.
 
-I had an issue with my file structure.  I had my images in the css folder instead of the separate images folder in the main assets folder and my css folder was not properly represented inside my assets folder,  so in order to remedy this, I learned that File Paths are like directions. I direct the files where to look for other files within my file structure.
-
-### So lets imagine I have this file structure - see example:
+#### So lets imagine I have this file structure - see example:
 -- top directory: *root* contains html file(s) and README.md. It also contains an *assets* directory/folder.
 ---- *assets* directory: contains 2 more directories: *css* and *images*
 ------*css* directory contains a *main.css* file.
@@ -124,7 +120,7 @@ iii) Html files are always in the root directory, (the top one). So I tell my ht
 
 This means I am saying to the html file: "from the root directory (where I start from in a html file), I must first look for the *assets* folder(`assets/`), then look for the *css* folder(`assets/css`), and then look for the file named *style.css* (`assets/css/style.css`).
 
-### But what happens if I need to add links to my images in my *main.css* file? Well then the links *to* the image files *from* the css file are different!
+#### But what happens if I need to add links to my images in my *main.css* file? Well then the links *to* the image files *from* the css file are different!
 
 Just like giving directions to the supermarket, the directions (path) is different depending on where one starts from.
 
@@ -138,27 +134,32 @@ I include a good video to explain file paths further, and to learn the differenc
 
 
 ------
-## UX process
+2) ### UX process
 In this section I provide an insight into the UX process, focusing on who this website is for, what it is that they want to achieve and how this project is the best way to help them achieve these objectives.
 
 ### I include a list of user stories to illustrate this process, with the following general structure:
 
 #### Some Actions to illustrate how as a user type, I want to perform an action, so that I can achieve a goal:-
-
+#### Navbar collapse / NavDropdown
 i)I use a "navbar collapse" for a responsive website. example:
 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mr-auto">
 This provides a clean and uncluttered responsive website with the basic essential information which can be accessed via the 3-bar menu at the top right corner on mobiles and i-phones.  This is so the user can toggle easily with their right hand or both.
-
-ii) For ipads, laptops and desktops I have incorporated a traditional dropdown menu for ease of use.  I also use a nav bar dropdown menu using anchor links to navigate up and down the web-page:
+#### Dropdown
+ii) For ipads, laptops and desktops I have incorporated a traditional Dropdown menu for ease of use.  I also use a nav bar dropdown menu using anchor links to navigate up and down the web-page:
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#navbarDropdownMenulink">Home</a>
                                 <a class="dropdown-item" href="#about-header">About</a>
                              </div>
+                     
+                     
+ iii) #### I use a nav bar with dropdownmenu with anchor links to navigate the website sections.
+                                        
+   #### Mood / Atmosphere                          
 In order to create an nostalgic atmosphere, I build a website invoking the mood and make available  the latest "happenings".  I add brightly coloured sections and images inspired by the Procol Harum era incorporating cover albums, complete with videos and audio for enjoyable listening.
-
+#### Sign Up forms
 ** to do** I build  a modal to create a "sign up" form to a newsletter.
 (W3 schools.com: Example )
 <div class="container">
@@ -166,7 +167,6 @@ In order to create an nostalgic atmosphere, I build a website invoking the mood 
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open   Modal</button>
 
-2) ### I use a nav bar with dropdownmenu with anchor links to navigate the website sections.
 
 3) ### To organise information from other websites - I redirect links to target websites without leaving the current one. I also create social links and "callout lead" to draw attention to their new Facebook page encouraging users to follow them on Facebook.
 
@@ -201,23 +201,14 @@ On the other end of the spectrum older generations daunted by technology, are ma
 #### Atmosphere/Mood - a website for everyone who loves the era of music from an iconic 1960s Band
 Soft furnishings, warm light, a little bit of psychedelic. This website should appeal to a wide and diverse age group without excluding anyone. Target audience 20s and 30s right up to those in their 70s.
 
->>>>>>> 38e7a678d74025ba064d0cc17fbc36d31ec30237
+-----
+/* Features Left to Implement
+Another feature idea */
 
-
-4) I Made sure to use bootstrap to make my website responsive from a mobile
-    first approach right up to a desktop.
-    To refresh my browser I used the command + shift + R on my Mac.to update my
-    website changes.
-
-
-<<<<<<< HEAD
-=======
-Features Left to Implement
-Another feature idea
-Technologies Used
+### Technologies Used
 In this section, I mention all of the languages, frameworks, libraries, and any other tools that I have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-### HTML audio tag
+#### HTML audio tag
 I used this as an audio base for listening to a sample of Procola Harum's music:-
 w3schools.com
 Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.
@@ -229,7 +220,7 @@ Well organized and easy to understand Web building tutorials with lots of exampl
 </audio>
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_audio
 -----
-### Embed Video
+#### Embed Video
 https://www.w3schools.com/html/html_youtube.asp
 (w3schools.com)
 HTML YouTube Videos
@@ -251,11 +242,9 @@ The project uses JQuery to simplify DOM manipulation.
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+**Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.**
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-### Contact form:
+#### Contact form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
@@ -264,17 +253,14 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
->>>>>>> 38e7a678d74025ba064d0cc17fbc36d31ec30237
 
-@ -88,6 +97,8 @@ If this section grows too long, you may want to split it off into a separate fil
-### Deployment
+#### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 To deploy the website - I commited to github and started the process of pushingto git hub.  I git add . ; git -m "commit content"; git status; git push to remote.
 Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary changes.
 
-## Resolving Push / Pull Merge Conflicts
+#### Resolving Push / Pull Merge Conflicts
 At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:- 
 i) The areas marked with >>>> are marking where your local files are and the ones pulled from     github are different.
 
