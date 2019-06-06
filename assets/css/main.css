@@ -2,13 +2,15 @@
 
 body {
     font-family: 'Lato', sans-serif;
+
 }
+
 
 /* Containers - creates a scroll flexible background*/
 
-.container-fluid .callout-container {
+.callout-container {
     height: 100vh;
-    background: url('assets/images/poco-8.png') no-repeat bottom right fixed;
+    background: url("/assets/images/poco-8.png") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,7 +23,6 @@ body {
     position: relative;
 }
 
-
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -32,21 +33,19 @@ body {
 }
 
 
-/* Navbar */
+/*-- Images --*/
 
-.navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, .25);
-    border: 0;
+.wrapper {
+    height: 100px;
+    width: 100px;
+    color: fff;
 }
 
-.navbar-default .navbar-collapse {
-    border-color: transparent;
+.image {
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 /*-- Navalert - Navbars --*/
@@ -75,6 +74,22 @@ body {
     font-weight: bold;
 }
 
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
 
 /*-- Jumbotron-text center --*/
 
@@ -94,7 +109,6 @@ body {
     font-family: 'Lato', serif;
     font-size: 72px;
     line-height: 80px;
-
 }
 
 /*-- Colours --*/
@@ -158,7 +172,6 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
     margin: 25px;
-
 }
 
 .container-fluid .about-container {
@@ -183,6 +196,14 @@ body {
     background-image: url("../assets/images/poco-6.png");
 }
 
+.anthology .header {
+    color: #ffc107;
+}
+
+.anthology .header span {
+    color: #ce5a2b;
+}
+
 /*-- Block dividers --*/
 
 .block-divider {
@@ -200,15 +221,11 @@ body {
     background-color: white;
 }
 
-.block-divider .short {
-    width: 35px;
-}
 
 .block-divider .white-short {
     width: 35px;
     background-color: white;
 }
-
 
 /*-- About section --*/
 
@@ -243,12 +260,24 @@ body {
     margin: 40px 0px 40px 0px;
 }
 
+/*-- Happenings --*/
+
+.h2 .id-happenings {}
+
+.container-fluid .happenings-container {}
+
+.block-divider .short {
+    width: 35px;
+}
+
 
 /*-- Anthology container --*/
 
-.container .anthology-container {
-    color: #4527a0;
-}
+.container .anthology-container {}
+
+.container-fluid .anthology-container {}
+
+
 
 .anthology-header {
     font-weight: bold;
@@ -266,6 +295,8 @@ body {
     margin-bottom: 30px;
     font-size: medium;
 }
+
+/* Beyond Deep media-container*/
 
 /* Buttons */
 
@@ -290,7 +321,6 @@ body {
     color: white;
 }
 
-
 /*-- Social media links --*/
 
 body:after {
@@ -298,11 +328,16 @@ body:after {
     display: block;
     margin-top: 2em;
     text-align: center;
+    padding-bottom: 15px;
 }
-
 
 .social-links {
     padding-bottom: 15px;
+}
+
+
+.social-links li {
+    display: inline;
 }
 
 .social-links li a i {
@@ -321,15 +356,11 @@ body:after {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li {
-    display: inline;
-}
-
 .social-links li a i:hover {
     background: #ce5a2b;
 }
 
-#footer-details {
+.footer-details {
     margin: 25px;
 }
 
