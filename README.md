@@ -27,9 +27,9 @@ My inspiration and Images come from:-
 1) website frameworks / structures
    i)   My Whiskey and CV projects in
   ii)   Interactive front end modules-The Code Institute
-  ii)   Interactive front end modules-The Code Institute, so credit goes to the authors for my   inspiration from these
+        so credit goes to the authors for my inspiration from these
         projects and I thank them.
-  iii) All the support and encouragement from the Slack community, in particular another student Anna Greaves, who articularly explains / clarifys different aspects I may not quite understand.    Her support on Slack among other very helpful students is much appreciated; and my Mentor.  Slack  are a very much valued and recourceful community.
+  iii) All the support and encouragement from the "Slack" community, in particular another student    Anna Greaves, who publishes her blogs / explains on her conference calls and excellent videos  clarifying different aspects of the technological process, to newbies like me, who may not quite have grasped the technological language used the first time.   Her support on "Slack" among other very helpful students is much appreciated; and also my Mentor.  I finde Slack a useful tool; very much valued and recourceful community.
 
  My inspiration and Images come from:-
     iv) Audio and visual links to YouTube / Spotify / Amazon websites
@@ -257,8 +257,53 @@ You should also mention in this section any interesting bugs or problems you dis
 #### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-To deploy the website - I commited to github and started the process of pushingto git hub.  I git add . ; git -m "commit content"; git status; git push to remote.
-Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary changes.
+i)To deploy the website - I commited to github and started the process of pushingto git hub.  I git add . ; git -m "commit content"; git status; git push to remote.
+Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary 
+changes.
+
+#### Procedure at Remote site
+ii) Once I have pushed my commits to github I can configure GitHub Pages to publish my site's source files from master.
+iii) Having enabled this GitHub, navigate to my GitHub Pages site's repository.
+
+IV) Under my repository name, I click  Settings. I then select source drop-down menu to select "master" or gh-pages as my GitHub Pages publishing source. I then click SAVE.  
+
+V)  Github pages notifys me that my site is ready at  http//:poco-harum-beyond-the-pale
+
+References:
+https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
+
+
+#### Cloning my Repository 
+
+i)  When I create a repository on GitHub, it exists as a remote repository. I can clone my repository so that I create a local copy on my computer and sync between the two locations.
+
+ii) Assuming I have already created a repository on GitHub, or have an existing repository owned by someone else like to contribute to, I navigate to the repository main page.
+
+iii)  Under the repository name I click the CLONE or DOWNLOAD buton.
+      In the Clone with HTTPs section, I click the "copypage icon" to copy the clone URL for the         repository.
+      
+1v)    Open Terminal.
+
+V)     I change current working directory to the location where I want the cloned directory to            be made.
+
+ vi)   I type git clone, and then paste the URL you copied in Step 2.     
+       $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+Vii)  I press enter and my local clone has been created.   **(See below example)
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+viii)  I can also clone to desktop by doing the following:-
+       - navigate to the main page of the repository on Github
+       - Click the repository name and then click the desktop icon then 
+       - follow the prompts in Github desktop to complete clone.  For more information, see                  "Cloning a repository from GitHub to GitHub Desktop".
+
+
 
 #### Resolving Push / Pull Merge Conflicts
 At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:- 
@@ -286,7 +331,8 @@ Separate git branch?
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-
+Click below link for further information regarding pull requests:- 
+https://help.github.com/en/articles/about-pull-requests
 
 
 
