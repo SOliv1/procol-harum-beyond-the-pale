@@ -93,9 +93,10 @@ body {
 
 /*-- Jumbotron-text center --*/
 
-.h2 {
+.callout-header .h2 {
     font-weight: bold;
     margin-bottom: 30px;
+    position: center;
     font-size: medium;
 }
 
@@ -187,7 +188,7 @@ body {
 /*-- Images --*/
 
 .img .style .height {
-    background-image: url("../assets/images/poco-9.png");
+    .image: url("../assets/images/poco-9.png");
     background-repeat: no-repeat;
     height: 150px;
 }
