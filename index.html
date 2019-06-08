@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
     </head>
 
     <body>
@@ -25,21 +25,22 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="navbarDropdownMenulink">Home</a>
+                            <div class="dropdown-menu" aria-labelledby="#navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#navbarDropdownMenulink">Home</a>
                                 <a class="dropdown-item" href="#about-header">About</a>
-                                <a class="dropdown-item" href="#Happenings-">Happenings</a>
-                                <a class="dropdown-item" href="index3.html">Contact</a>
-                                <a class="dropdown-item" href="index3.html">Anthology</a>
+                                <a class="dropdown-item" href="#happenings-">Happenings</a>
+                                <a class="dropdown-item" href="#index3.html">Contact</a>
+                                <a class="dropdown-item" href="#index3.html">Anthology</a>
                             </div>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <header>
 
-            <!-- Jumbotron--callout -->
+
+        <!-- Jumbotron-callout -->
+        <header>
             <div class="container-fluid callout-container">
                 <div class="opaque-overlay">&nbsp;</div>
                 <div class="row">
@@ -62,10 +63,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </header>
 
         <!-- About-section -->
-        <header>
+        <section class="container-wrapper">
             <div class="container-fluid about-container">
                 <div class="content-container">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
@@ -73,7 +75,7 @@
                             <div class="col-12-md-6">
                                 <div>
                                     <h2 id="about-header">About</h2>
-                                    <hr class="block-divider short">
+                                    <hr class="block-divider block-divider--orange">
                                 </div>
                             </div>
                             <div class="row">
@@ -84,28 +86,32 @@
                                 </div>
                                 <div class="col-12-md-6">
                                     <p>
-                                        Procol Harum ( pronunced /ˈproʊkəl ˈhɑːrəm/) are an English rock band formed in 1967. They are best-known for their recording of the 1967 hit single "A Whiter Shade of Pale", one of a few singles to have sold over 10 million copies.. In 2018, the band
-                                        was honoured by the Rock and Roll Hall of Fame when "A Whiter Shade of Pale"
+                                        Procol Harum ( pronunced /ˈproʊkəl ˈhɑːrəm/) are an English rock band formed in 1967. They are best-known for their recording of the 1967 hit single "A Whiter Shade of Pale" being one of a few singles to have sold over 10 million copies. In 2018, the
+                                        bandwas honoured by the Rock and Roll Hall of Fame when "A Whiter Shade of Pale" was inducted into the brand-new Singles category. Although noted for their baroque and classical influence, Procol Harum's music also
+                                        embraces the blues, R&B, and soul.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        </header>
+            </div>
+        </section>
+
 
         <!-- Happenings -->
-        <section class="container-wrapper red">
+        <section class="container-wrapper container-wrapper--red">
             <div class="container-fluid happenings-container">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                     <div class="row">
                         <div class="col-12-md-6">
                             <h2 id="happenings">Happenings</h2>
-                            <hr class="block-divider short">
+                            <hr class="block-divider block-divider--orange">
                         </div>
                     </div>
                 </div>
             </div>
+
             <!-- Happenings container -->
             <div class="container">
                 <div class="row">
@@ -134,7 +140,7 @@
         </section>
 
         <!-- Anthology container -->
-        <section class="container-wrapper dark">
+        <section class="container-wrapper container-wrapper--pale">
             <div class="container-fluid" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="container">
                     <div class="row">
@@ -146,7 +152,7 @@
                             <p>Concerts Concerts Concerts Concerts</p>
                         </div>
                         <div class="col-md-6">
-                            <img alt="img" style="height: 50px;" "poco-6.png" />
+                            <img src="/assets/images/poco-6.png" class="rounded-circle mr-4" height=280 width=280>
                         </div>
                     </div>
                 </div>
@@ -154,7 +160,7 @@
         </section>
 
         <!-- Anthology container -->
-        <section class="container-wrapper">
+        <section class="container-wrapper container-wrapper--dark">
             <div class="container-fluid anthology-container">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6-justify-content-xl-end">
                     <div class="row">
@@ -167,7 +173,7 @@
             </div>
         </section>
 
-        <section class="container-wrapper pale">
+        <section class="container-wrapper container-wrapper--dark">
             <div class="container-fluid container">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                     <div class="row">
@@ -195,7 +201,7 @@
         </section>
 
         <!-- Beyond Deep media-container -->
-        <section class="container-wrapper red">
+        <section class="container-wrapper container-wrapper--red">
             <div class="container-fluid container">
                 <div class="container-wrapper dark">
                     <div class='row'>
@@ -227,6 +233,7 @@
                 </div>
             </div>
 
+            <!-- Social links-->
             <div class="display-inline col-sm-4">
                 <h5 class="uppercase general-sub">Social Media</h5>
                 <ul class="social-links">
@@ -238,11 +245,13 @@
                     <li><a target="_blank" href="youtube"><i class="fab fa-youtube-square"></i></a></li>
                 </ul>
             </div>
+
+            <!-- SignUp form -->
             <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title">Sign Up To Whiskey Drop!</h5>
+                            <h5 class="modal-title">Sign Up to receive the latest Happenings</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
