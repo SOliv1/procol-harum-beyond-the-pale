@@ -2,7 +2,23 @@
 
 body {
     font-family: 'Lato', sans-serif;
+}
 
+/*-- Container-wrappers --*/
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.container-wrapper--pale {
+    background-color: #ffc107;
+    color: white;
+}
+
+.container-wrapper--dark {
+    background-color: #673ab7;
+    color: white;
 }
 
 
@@ -10,6 +26,7 @@ body {
 
 .callout-container {
     height: 100vh;
+
     background: url("/assets/images/poco-8.png") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -150,22 +167,6 @@ body {
     color: #ce5a2b;
 }
 
-/*-- Content-wrappers --*/
-
-.container-wrapper .red {
-    background-color: #f05f40;
-    color: white;
-}
-
-.container-wrapper .pale {
-    background-color: #ffc107;
-    color: white;
-}
-
-.container-wrapper .dark {
-    background-color: #673ab7;
-    color: white;
-}
 
 /*-- Content-container --*/
 
@@ -214,16 +215,16 @@ body {
     background-color: #444;
 }
 
-.block-divider .orange {
+.block-divider--orange {
     background-color: #f05f40;
 }
 
-.block-divider .white {
+.block-divider--white {
     background-color: white;
 }
 
 
-.block-divider .white-short {
+.block-divider--short {
     width: 35px;
     background-color: white;
 }
