@@ -49,6 +49,29 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+/*media beyond deep scroll flexible background*/
+
+.container-fluid .callout-container--media {
+    background-attachment: fixed;
+    background-image: url("/assets/images/backstageband.png");
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 42px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 
 /*-- Images --*/
 
@@ -223,6 +246,9 @@ body {
     background-color: white;
 }
 
+.block-divider--dark {
+    background-color: #6f42c1;
+}
 
 .block-divider--short {
     width: 35px;
@@ -300,80 +326,92 @@ body {
 
 /* Beyond Deep media-container*/
 
-/* Buttons */
+.callout .beyond-jumbotron .text-center {
+    height: 100vh;
+}
 
-.btn--cta {
+.beyond-jumbotron {
     font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
+    color: #6a1b9a;
 }
 
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+.Jumbrotron-header h2 span {
+    color: #64b5f6;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-
-/*-- Social media links --*/
-
-body:after {
-    content: "sign up";
-    display: block;
-    margin-top: 2em;
-    text-align: center;
-    padding-bottom: 15px;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-
-.social-links li {
-    display: inline;
-}
-
-.social-links li a i {
-    width: 30px;
-    height: 30px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 14px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #ce5a2b;
-}
-
-.footer-details {
-    margin: 25px;
-}
-
-
-/*-- Media queries --*/
-
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
+.jumbotron h2 {
+    color: .block-divider--orange {
+        background-color: #f05f40;
     }
-}
+
+    .Jumbroton-text .lead {
+        color: cornflowerblue;
+    }
+
+
+    /* Buttons */
+    .btn--cta {
+        font-weight: bold;
+        border-radius: 23px;
+        width: 160px;
+    }
+
+    .btn--red {
+        color: white;
+        background-color: #f05f40;
+        border-color: #f05f40;
+    }
+
+    .btn--red:hover,
+    .btn--red:active,
+    .btn--red:focus,
+    .btn--red:active:focus {
+        background-color: #df4929;
+        border-color: #df4929;
+        color: white;
+    }
+
+    /*-- Social media links --*/
+    .social-links {
+        padding-bottom: 15px;
+
+    }
+
+    .social-links li {
+        display: inline;
+    }
+
+    .social-links li a i {
+        width: 30px;
+        height: 30px;
+        padding: 12px 0;
+        border-radius: 50%;
+        font-size: 14px;
+        line-height: 7px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+
+    .social-links li a i:hover {
+        background: #ce5a2b;
+    }
+
+    .footer-details {
+        margin: 25px;
+    }
+
+
+    /*-- Media queries --*/
+    @media(min-width: 992px) {
+        .center-form {
+            padding-top: 30px;
+            min-height: 240px;
+            margin: 0 auto;
+            max-width: 50%;
+        }
+    }
