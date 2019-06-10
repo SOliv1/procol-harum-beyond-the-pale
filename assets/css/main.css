@@ -194,9 +194,9 @@ body {
 /*-- Content-container --*/
 
 .content-container {
-    padding-top: 75px;
+    padding-top: 55px;
     padding-bottom: 75px;
-    margin: 25px;
+    margin: 35px;
 }
 
 .container-fluid .about-container {
@@ -274,18 +274,22 @@ body {
 
 .about-header {
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
-.p {
+p {
     box-sizing: border-box;
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .about-row .about-p {
     font-size: .8em;
     margin: 40px 0px 40px 0px;
+}
+
+b {
+    font-weight: bold;
 }
 
 /*-- Happenings --*/
