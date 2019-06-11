@@ -204,6 +204,13 @@ body {
     padding-bottom: 30px;
 }
 
+.container-fluid .style {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
 .container-fluid .anthology-container {
     margin-top: 30px;
     padding-bottom: 30px;
@@ -212,7 +219,7 @@ body {
 /*-- Images --*/
 
 .img .style .height {
-    .image: url("../assets/images/poco-9.png");
+    background-image: url("../assets/images/poco-9.png");
     background-repeat: no-repeat;
     height: 150px;
 }
@@ -296,10 +303,24 @@ b {
 
 .h2 .id-happenings {}
 
-.container-fluid .happenings-container {}
+
 
 .block-divider .short {
     width: 35px;
+}
+
+/* css */
+
+.wrapper {
+    height: 100px;
+    width: 100px;
+}
+
+.image {
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 
