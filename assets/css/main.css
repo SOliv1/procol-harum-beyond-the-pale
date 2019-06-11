@@ -53,7 +53,7 @@ body {
 
 .container-fluid .callout-container--media {
     background-attachment: fixed;
-    background-image: url("/assets/images/backstageband.png");
+    background-image: url("..images/backstageband.png");
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
@@ -82,7 +82,7 @@ body {
 }
 
 .image {
-    background-image: url("image.jpg");
+    background-image: url("..image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -209,9 +209,7 @@ body {
     padding-bottom: 30px;
 }
 
-
-
-.container-fluid .anthology-container {
+.container-fluid {
     margin-top: 30px;
     padding-bottom: 30px;
 }
@@ -219,13 +217,13 @@ body {
 /*-- Images --*/
 
 .img .style .height {
-    background-image: url("../assets/images/poco-9.png");
+    background-image: url("..images/poco-9.png");
     background-repeat: no-repeat;
     height: 150px;
 }
 
 .img .style .height {
-    background-image: url("../assets/images/poco-6.png");
+    background-image: url("..images/poco-6.png");
 }
 
 .anthology .header {
