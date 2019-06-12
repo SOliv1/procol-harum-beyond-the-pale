@@ -27,7 +27,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url("./assets/images/poco-8.png") no-repeat bottom right fixed;
+    background: url("../images/poco-8.png") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,7 @@ body {
 
 .container-fluid .callout-container .media {
     background-attachment: fixed;
-    background-image: url("./assets/images/backstageband.png") no-repeat bottom right fixed;
+    background-image: url("../images/backstageband.png") no-repeat bottom right fixed;
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
