@@ -11,14 +11,8 @@ body {
     color: white;
 }
 
-.container-wrapper--pale {
-    background-color: #ffc107;
-    color: white;
-}
-
-.container-wrapper--dark {
-    background-color: #673ab7;
-    color: white;
+.container-wrapper {
+    background-color: ffff
 }
 
 
@@ -78,15 +72,10 @@ body {
 .wrapper {
     height: 100px;
     width: 100px;
-    color: fff;
+    color: ffff;
 }
 
-.image {
-    background-image: url("..image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-}
+
 
 /*-- Navalert - Navbars --*/
 
@@ -135,14 +124,14 @@ body {
 
 .callout-header .h2 {
     font-weight: bold;
-    margin-bottom: 30px;
-    position: center;
     font-size: medium;
+    margin: 30px auto;
+    text-align: center;
 }
 
 .jumbotron .lead {
-    margin: 30px 0;
-    position: center;
+    margin: 30px auto;
+    text-align: center;
 }
 
 .jumbotron-header h2 {
@@ -160,7 +149,7 @@ body {
 }
 
 .callout-header {
-    color: #f05f40;
+    color: #ffff;
 }
 
 .jumbotron .lead {
@@ -175,21 +164,14 @@ body {
     color: #ffc107;
 }
 
-.happenings-header {
-    color: #444;
-}
-
-.anthology-header {
-    color: #fff;
-}
-
-.anthology .header {
-    color: #ffc107;
-}
-
-.anthology .header span {
+.jumbotron-header-1 span {
     color: #ce5a2b;
 }
+
+.jumbotron-header-1 {
+    color: #ce5a2b;
+}
+
 
 
 /*-- Content-container --*/
@@ -224,14 +206,6 @@ body {
     background-image: url("..images/poco-6.png");
 }
 
-.anthology .header {
-    color: #ffc107;
-}
-
-.anthology .header span {
-    color: #ce5a2b;
-}
-
 /*-- Block dividers --*/
 
 .block-divider {
@@ -245,18 +219,12 @@ body {
     background-color: #f05f40;
 }
 
-.block-divider--white {
-    background-color: white;
-}
+
 
 .block-divider--dark {
     background-color: #6f42c1;
 }
 
-.block-divider--short {
-    width: 35px;
-    background-color: white;
-}
 
 /*-- About section --*/
 
@@ -353,23 +321,12 @@ b {
 
 .beyond-jumbotron {
     font-weight: bold;
-    color: #6a1b9a;
+    color: #f05f40;
 }
 
-.Jumbrotron-header h2 span {
-    color: #64b5f6;
-}
-
-.jumbotron h2 {
-    color: cornflowerblue;
-}
 
 .block-divider--orange {
     background-color: #f05f40;
-}
-
-.Jumbroton-text .lead {
-    color: cornflowerblue;
 }
 
 
