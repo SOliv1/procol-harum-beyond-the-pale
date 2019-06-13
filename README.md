@@ -13,8 +13,13 @@ The Audience has a clearer understanding of where they can access information in
 are interested to know what is happening performance wise both at local venues, national and on tour.  The band are keen to keep the audience
 informed with their activities.
 
+2)   ####UI = navigation / user experience - visually attractive.
+User feels there is a clear interest in their needs - why they are here / learnablility - easy to understand / bite size information - keep information in bite size pieces to keep
+interest and encourage user to return often.
+Visitors to the website generally looking for  one or two target things and then move on with their lives. With this behaviour in mind, developing a manageable
+and easily navagatable website is paramount.  Provide information that is subtle.
 
-This website provides the means to be able to access the information needed in a user friendly fashion and also
+
 3) This website provides the means to be able to access the information needed in a user friendly fashion and also
 provide access to videos and music samples from the past.
 
@@ -32,8 +37,8 @@ My inspiration and Images come from:-
   iii) All the support and encouragement from the "Slack" community, in particular another student    Anna Greaves, who publishes her blogs / explains on her conference calls and excellent videos  clarifying different aspects of the technological process, to newbies like me, who may not quite have grasped the technological language used the first time.   Her support on "Slack" among other very helpful students is much appreciated; and also my Mentor.  I finde Slack a useful tool; very much valued and recourceful community.
 
  My inspiration and Images come from:-
-    iv) Audio and visual links to YouTube / Spotify / Amazon websites
-    
+    iv) Audio and visual links to YouTube / Spotify / Amazon websites / wikipedia for their excellent content.
+
 2) website frameworks / structures
    i)   My Whiskey and CV projects in
   ii)   Interactive front end modules-The Code Institute - so credit goes to the authors for my             inspiration from these
@@ -153,12 +158,16 @@ ii) For ipads, laptops and desktops I have incorporated a traditional Dropdown m
                                 <a class="dropdown-item" href="#navbarDropdownMenulink">Home</a>
                                 <a class="dropdown-item" href="#about-header">About</a>
                              </div>
-                     
-                     
+
+
  iii) #### I use a nav bar with dropdownmenu with anchor links to navigate the website sections.
-                                        
-   #### Mood / Atmosphere                          
-In order to create an nostalgic atmosphere, I build a website invoking the mood and make available  the latest "happenings".  I add brightly coloured sections and images inspired by the Procol Harum era incorporating cover albums, complete with videos and audio for enjoyable listening.
+
+   #### Mood / Atmosphere - Thats Userinterface!
+Userinterface - is like a fully furnished living room where everything is in place and where you expect it to be.  People know where to find things / so make sure it is a good user interface.
+In order to create an nostalgic atmosphere. I build a website invoking the mood and make available the latest "happenings".  I add  brightly coloured sections and images inspired by the Procol Harum era incorporating cover albums,
+complete with videos and audio for enjoyable listening. The logo is at the top left corner and the navbar is also at the top where expected. In my case the left corner next to the logo.  The home page clicks as it should and the dropdown menu is user friendly
+and takes the user seemlessly to the desired section.  Social links are always at the bottom and easily accessible at all times on every page, together with the munu links.
+
 #### Sign Up forms
 ** to do** I build  a modal to create a "sign up" form to a newsletter.
 (W3 schools.com: Example )
@@ -183,20 +192,33 @@ In this section below, I cover different aspects of my project, incorporating so
 ## User Stories
 README.md continued...
 ## Procol Harum 1960s Band User stories:
-1. John and his wife Jane, met in the heady summer of 1967 and remember well their time on that warm far off sunny day when they met for the first time at Glastonbury. They both remember that feeling of natural love and freedom to do what they want, and listen to the music that reflected their carefree mood. “Procol Harum” was a particular favourite of theirs; never failing to draw them back to that wonderful and swinging time of their early lives. This couple who of course, went on to marry each other, are major fans of ## Procol Harum ## and want to continue their love affair with the period and the band. They want to find a website that invokes the mood and be able to find out what is happening with the boys in the contemporary 21st century. They like to view the pictures and be drawn into the nostalgia of the past; another world and at the same time be brought up to date with what is happening. Catch the music from the era by listening to audios and be guided on where to find Procol Harum’s music quickly and easily via search links to other websites.
+ John and his wife Jane, met in the heady summer of 1967 and remember well their time on that warm far off sunny day when they met for the first time at Glastonbury.
+ They both remember that feeling of natural love and freedom to do what they want, and listen to the music that reflected their carefree mood.
+ “Procol Harum” was a particular favourite of theirs; never failing to draw them back to that wonderful and swinging time of their early lives.
+ This couple who of course, went on to marry each other, are major fans of ## Procol Harum ## and want to continue their love affair with the period and the band. They want to find a website that invokes the mood and be able to find out what is happening with the boys in the contemporary 21st century. They like to view the pictures and be drawn into the nostalgia of the past; another world and at the same time be brought up to date with what is happening.
+ Catch the music from the era by listening to audios and be guided on where to find Procol Harum’s music quickly and easily via search links to other websites.
 ### "The look and feel of the website reflecting the music, the era via videos and other media, is paramount. The quick access to relevant content is also a must have".
 
-2. Jack and his young group of 21st century band leaders are looking for modern contemporary music with a twist. Procol Harum is on their “inspiration list”. He and his peers are looking to soak up as much of the ethos of Procol Harum and find out what makes them tick and their music so evocative. They like rythmn and blues and harmonies as well as soft rock. They want to be able to navigate their way through the information on offer on the website without having to leave the site altogether. # Having the site as a base for searching all things “P H” suits them. They are busy band players and want to access information quickly and easily.
+   Jack and his young group of 21st century band leaders are looking for modern contemporary music with a twist. Procol Harum is on their “inspiration list”.
+   He and his peers are looking to soak up as much of the ethos of Procol Harum and find out what makes them tick and their music so evocative.
+   They like rythmn and blues and harmonies as well as soft rock.
+   They want to be able to navigate their way through the information on offer on the website without having to leave the site altogether.
+   # Having the site as a base for searching all things “P H” suits them. They are busy band players and want to access information quickly and easily.
 
-3. Another couple James and his long term partner Storm, have been together since the 1970s and own and work hard on their farm. They live an idyllic life with no children, but plenty of chickens, ducks, horses, goats, four dogs and two cats. They love to listen to the P H music and keep up with the band. They follow them religiously and like to keep track with the “happenings”. Easy access navigation Bar and clicking their way around, encourages them to explore. Neither couple are particularly computer savvy but can find their way around an easy user friendly website.
-4. Andy is getting married soon and wants to find a band that incorporates the music of Procol Harum for his wedding and also wants to book his surprise honeymoon to Switzerland. He and his fiancé dream of seeing P H in concert in idyllic surroundings reflecting their soft rock and baroque music. They want to reserve their place and find out where to go and what to do. There are two concerts and they will be following their heroes to each destination. Information is available on the website via the links to find out what where and how to go about making this a reality for
+    Another couple James and his long term partner Storm, have been together since the 1970s and own and work hard on their farm. They live an idyllic life with no children, but plenty of chickens, ducks, horses, goats, four dogs and two cats.
+    They love to listen to the P H music and keep up with the band. They follow them religiously and like to keep track with the “happenings”. Easy access navigation Bar and clicking their way around, encourages them to explore.
+     Neither of the couple are particularly computer savvy but can find their way around an easy user friendly website.
+
+4. Andy is getting married soon and wants to find a band that incorporates the music of Procol Harum for his wedding and also wants to book his surprise honeymoon to Switzerland.
+5. He and his fiancé dream of seeing P H in concert in idyllic surroundings reflecting their soft rock and baroque music. They want to reserve their place and find out where to go and what to do. There are two concerts and they will be following their heroes to each destination. Information is available on the website via the links to find out what where and how to go about making this a reality for
 them. A new facebook page regularly updated has been given pride of place on the home page to all fans to follow and keep them in the loop.
 
 ### Conclusion
 Making this website as user friendly as possible is key as many of the legions of fans are of a certain age where computers were not necessarily a part of their lives. Hence also, the site should appeal to young and professionals alike. Those who have a deep appreciation of real music and musicians, should be able to feel comfortable using it, without feeling it is a stuffy place for a past generation.
 Users should be able to quickly click and find relevant content.
 
-On the other end of the spectrum older generations daunted by technology, are made to feel as comfortable as possible and want to return time and again to a friendly atmospheric place. The objectiive of this site is to make the user feel at home.
+On the other end of the spectrum older generations daunted by technology, are made to feel as comfortable as possible and want to return time and again to a friendly atmospheric place. The objectiive of this site is to make the user feel at home. To provide the information they may need in a
+visual user friendly experience. ( UI = navigation / user experience - visually attractive with a clear interest in the needs of the user - I need to establish  "why they are here / and provide learnability.  This means an easy to understand providing  bite size information - I should  provide information so that os user feels  ui = navigation / user experience - visually attractive. clear interest in their needs - why they are here / learnablility -easy to understand / bite size information - keep your information in bite size pieces - looking for  one or two target things and move on with their lives.  - be subtle in your information.  - looking for  one or two target things and move on with their lives.  - be subtle in your information.
 
 #### Atmosphere/Mood - a website for everyone who loves the era of music from an iconic 1960s Band
 Soft furnishings, warm light, a little bit of psychedelic. This website should appeal to a wide and diverse age group without excluding anyone. Target audience 20s and 30s right up to those in their 70s.
@@ -251,21 +273,98 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+#### Mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+I had problems making my background images appear in my git hub website.  I had tried a number of different methods and ways of changing my file paths to suit git hub.
+I discover theat what appears to suit chrome and firefox websites does not necessarily my site is compatible with git hub.  After much trial and error, I finally manage
+to make the background images appear and I think it was something more to do with clearing my
+css code of unnecesary clutter. Once I deleted a series of codes and pushed my work to github the
+images magically appeared.  So I think it may have been a combination of factors involving
+file paths and clearing my main.css of code clutter during the website building process.
+for example I finally settled for the following image path which seems to work.
+See my example here:-
+
+   #### background: url("../images/poco-8.png") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    My lovely "social Links" which I love and felt inspired to use from the #####Code Institute-Mini Project with Bootstrap 4, Resume Project##### were causing me a headache.  When I was building my site quite a number of times I accidently upset the structure of my code.
+    This seem to cause the code to intermintantly cause my social media to lose all its lovely styles, especially when I gitbubed it.  Several times I had to return to an earlier commit to try to resolve this.
+    As I did not know exactly what the problem was, after trial and error and reaching out to the wonderful Slack Community, I finally fix the social links code structure - See my html and css codes below:-
+
+                    Css {% codeblock %}
+                    code_snippet
+                    <footer class="social-links li ">
+            <div class="row ">
+                <div class="display-inline col-sm-4 ">
+                    <h5 class="uppercase ">Social Media</h5>
+                    <ul class="social-links li ">
+                        <li><a target="_blank " href="#facebook.com/btpsite "><i class="fab fa-facebook-square "></i></a></li>
+                        <li><a target="_blank " href="#twitter.com "><i class="fab fa-twitter-square "></i></a></li>
+                        <li><a target="_blank " href="#linkedin.com "><i class="fab fa-linkedin "></i></a></li>
+                        <li><a target="_blank " href="#pinterest.com "><i class="fab fa-pinterest-square "></i></a></li>
+                        <li><a target="_blank " href="#instagram.com "><i class="fab fa-tumblr-square "></i></a></li>
+                        <li><a target="_blank " href="#youtube.com "><i class="fab fa-youtube-square "></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+                    {% endcodeblock %}
+
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ce5a2b;
+}
+
+                    {% endcodeblock %}
+
+  First I Look at the order I am opening and closing my <li> and <a> and <i>inside them.
+  Througj a process of eliminateion I finally arrived at the conclusion that my
+ href="" for my links need to be _an actual link_ or `#` between the quotes. I fixed those links but that did not quite work, however, in doing so I notice that because
+  social-links is a class, it needs a `.` before it in my css.  One problem solved and then finally to bring my social links to life on my website I target the
+`.social-links li`  and then changed inline-block to  just `inline`.  I am glad to report problem permanantly solved.
 
 
 #### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 i)To deploy the website - I commited to github and started the process of pushingto git hub.  I git add . ; git -m "commit content"; git status; git push to remote.
-Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary 
+Many times due to local issues with cloud9 not being compatible with my server, I had to reset to previous commits. I was unable to preview and as a result made many mistakes and unnecessary
 changes.
 
 #### Procedure at Remote site
 ii) Once I have pushed my commits to github I can configure GitHub Pages to publish my site's source files from master.
 iii) Having enabled this GitHub, navigate to my GitHub Pages site's repository.
 
-IV) Under my repository name, I click  Settings. I then select source drop-down menu to select "master" or gh-pages as my GitHub Pages publishing source. I then click SAVE.  
+IV) Under my repository name, I click  Settings. I then select source drop-down menu to select "master" or gh-pages as my GitHub Pages publishing source. I then click SAVE.
 
 V)  Github pages notifys me that my site is ready at  http//:poco-harum-beyond-the-pale
 
@@ -273,7 +372,7 @@ References:
 https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
 
 
-#### Cloning my Repository 
+#### Cloning my Repository
 
 i)  When I create a repository on GitHub, it exists as a remote repository. I can clone my repository so that I create a local copy on my computer and sync between the two locations.
 
@@ -281,12 +380,12 @@ ii) Assuming I have already created a repository on GitHub, or have an existing 
 
 iii)  Under the repository name I click the CLONE or DOWNLOAD buton.
       In the Clone with HTTPs section, I click the "copypage icon" to copy the clone URL for the         repository.
-      
+
 1v)    Open Terminal.
 
 V)     I change current working directory to the location where I want the cloned directory to            be made.
 
- vi)   I type git clone, and then paste the URL you copied in Step 2.     
+ vi)   I type git clone, and then paste the URL you copied in Step 2.
        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Vii)  I press enter and my local clone has been created.   **(See below example)
@@ -300,13 +399,13 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 viii)  I can also clone to desktop by doing the following:-
        - navigate to the main page of the repository on Github
-       - Click the repository name and then click the desktop icon then 
+       - Click the repository name and then click the desktop icon then
        - follow the prompts in Github desktop to complete clone.  For more information, see                  "Cloning a repository from GitHub to GitHub Desktop".
 
 
 
 #### Resolving Push / Pull Merge Conflicts
-At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:- 
+At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:-
 i) The areas marked with >>>> are marking where your local files are and the ones pulled from     github are different.
 
 ii) Cloud9 doesn't know which ones you want to keep and which to get rid of.
@@ -317,7 +416,7 @@ iv) Once they are all removed then save all the files.
 then Git add, git commit with the message "fixed merge conflicts"
 then push it to github so everything is in sync.
 
-V) Once you have done that in your terminal (master | MERGING)  should return to just (master) and you are good to keep moving forward again. (edited) 
+V) Once you have done that in your terminal (master | MERGING)  should return to just (master) and you are good to keep moving forward again. (edited)
 
 Fortunately I am able to git log then set to a previous commit on github and move on.
 
@@ -331,7 +430,7 @@ Separate git branch?
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Click below link for further information regarding pull requests:- 
+Click below link for further information regarding pull requests:-
 https://help.github.com/en/articles/about-pull-requests
 
 
