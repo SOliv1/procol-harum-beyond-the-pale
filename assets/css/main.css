@@ -6,13 +6,17 @@ body {
 
 /*-- Container-wrappers --*/
 
+.container-wrapper {
+    background-color: white;
+}
+
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
 
-.container-wrapper {
-    background-color: ffff
+.container-wrapper--pale {
+    background-color: #fbe7e2;
 }
 
 
@@ -122,11 +126,11 @@ body {
 
 /*-- Jumbotron-text center --*/
 
-.callout-header .h2 {
-    font-weight: bold;
-    font-size: medium;
+h3 .text-center {
+    font-weight: 400px;
+    font-size: 2.6rem;
     margin: 30px auto;
-    text-align: center;
+    text-align: center color: #fffff
 }
 
 .jumbotron .lead {
@@ -171,8 +175,6 @@ body {
 .jumbotron-header-1 {
     color: #ce5a2b;
 }
-
-
 
 /*-- Content-container --*/
 
@@ -236,12 +238,6 @@ body {
     line-height: 2;
 }
 
-.h2 {
-    margin-left: 15px;
-    margin-top: 15%;
-    letter-spacing: 7px;
-    text-transform: uppercase;
-}
 
 .about-header {
     font-weight: bold;
@@ -252,6 +248,7 @@ p {
     box-sizing: border-box;
     text-align: justify;
     margin-bottom: 30px;
+    color: black
 }
 
 .about-row .about-p {
@@ -265,9 +262,17 @@ b {
 
 /*-- Happenings --*/
 
-.h2 .id-happenings {}
+h3 .happenings-header {
+    font-weight: bold;
+    color: fffff;
+}
 
 
+
+h4 {
+    font-weight: bold;
+    color: black;
+}
 
 .block-divider .short {
     width: 35px;
@@ -290,22 +295,13 @@ b {
 
 /*-- Anthology container --*/
 
-.container .anthology-container {}
-
-.container-fluid .anthology-container {}
-
-
-
 .anthology-header {
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.anthology .lead {
-    color: #ffff;
-    background-color: #4527a0;
-}
+
 
 .anthology .header {
     font-weight: bold;
@@ -388,6 +384,9 @@ b {
     margin: 25px;
 }
 
+/*-- Media embeds --*/
+
+/*-- Media queries --*/
 
 /*-- Media queries --*/
 
