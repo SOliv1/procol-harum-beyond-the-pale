@@ -126,11 +126,11 @@ body {
 
 /*-- Jumbotron-text center --*/
 
-h3 .text-center {
+h3 .text-header {
     font-weight: 400px;
     font-size: 2.6rem;
     margin: 30px auto;
-    text-align: center color: #fffff
+    text-align: center
 }
 
 .jumbotron .lead {
@@ -152,13 +152,15 @@ h3 .text-center {
     background-color: transparent;
 }
 
-.callout-header {
-    color: #ffff;
-}
 
 .jumbotron .lead {
     color: white;
 }
+
+.text-center {
+    color: #fff;
+}
+
 
 .jumbotron-header span {
     color: #ce5a2b;
@@ -175,6 +177,8 @@ h3 .text-center {
 .jumbotron-header-1 {
     color: #ce5a2b;
 }
+
+
 
 /*-- Content-container --*/
 
@@ -262,9 +266,9 @@ b {
 
 /*-- Happenings --*/
 
-h3 .happenings-header {
+h3 {
     font-weight: bold;
-    color: fffff;
+    color: fff;
 }
 
 
