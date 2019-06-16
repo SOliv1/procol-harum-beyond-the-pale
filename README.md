@@ -36,8 +36,13 @@ My inspiration and Images come from:-
         projects and I thank them.
   iii) All the support and encouragement from the "Slack" community, in particular another student    Anna Greaves, who publishes her blogs / explains on her conference calls and excellent videos  clarifying different aspects of the technological process, to newbies like me, who may not quite have grasped the technological language used the first time.   Her support on "Slack" among other very helpful students is much appreciated; and also my Mentor.  I finde Slack a useful tool; very much valued and recourceful community.
 
- My inspiration and Images come from:-
+ My inspiration for all album Images come from:-
+**cover art for the album "Prodigal Stranger" by the artist Procol Harum. The cover art copyright is believed to belong to the record label or the graphic artist(s).Credits** 
+Source
     iv) Audio and visual links to YouTube / Spotify / Amazon websites / wikipedia for their excellent content.
+    
+    
+    
 
 2) website frameworks / structures
    i)   My Whiskey and CV projects in
