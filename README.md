@@ -37,12 +37,12 @@ My inspiration and Images come from:-
   iii) All the support and encouragement from the "Slack" community, in particular another student    Anna Greaves, who publishes her blogs / explains on her conference calls and excellent videos  clarifying different aspects of the technological process, to newbies like me, who may not quite have grasped the technological language used the first time.   Her support on "Slack" among other very helpful students is much appreciated; and also my Mentor.  I finde Slack a useful tool; very much valued and recourceful community.
 
  My inspiration for all album Images come from:-
-**cover art for the album "Prodigal Stranger" by the artist Procol Harum. The cover art copyright is believed to belong to the record label or the graphic artist(s).Credits** 
+**cover art for the album "Prodigal Stranger" by the artist Procol Harum. The cover art copyright is believed to belong to the record label or the graphic artist(s).Credits**
 Source
     iv) Audio and visual links to YouTube / Spotify / Amazon websites / wikipedia for their excellent content.
-    
-    
-    
+
+
+
 
 2) website frameworks / structures
    i)   My Whiskey and CV projects in
@@ -413,7 +413,7 @@ viii)  I can also clone to desktop by doing the following:-
 At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:-
 i) The areas marked with >>>> are marking where your local files are and the ones pulled from     github are different.
 
-ii) Cloud9 doesn't know which ones you want to keep and which to get rid of.
+ii) Cloud9 doesn't know which ones  to keep and which to get rid of.
 
 iii) So go through all those places, remove any code you don't need any more. and take out all the >>>> lines with the numbers and letters in until your code looks the way you need it to to keep moving forward.
 
