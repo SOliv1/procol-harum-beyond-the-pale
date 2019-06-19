@@ -65,6 +65,13 @@ http://starling.rinet.ru/music/procol.htm
     iii)  Beyond the Deep website
     iv) Audio and visual links to YouTube / Spotify / Amazon websites
 
+4) Gallery Features - <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Carousel Template · Bootstrap</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+
+
 ## Features
   1) I use bootstrap which allows my website to be responsive from a mobile
     first approach right up to a desktop.
@@ -140,6 +147,8 @@ ii)Because the css file is inside a *css folder*, _it cannot see anything but wh
 iii) So the first instruction `../` says *come up out of the current folder* or another way to put it is *move BACK one folder from this one* which in this case would move one up out of the css folder and into the assets folder. From there the file path can see the images folder so the rest of the path `../images/picture.jpg` points the way to the image.
 
 I include a good video to explain file paths further, and to learn the difference between an absolute file path and a relative one: https://www.youtube.com/watch?v=ephId3mYu9o.
+
+4) I include in my second page a Carousel Gallery from the 'Bootstrap template' collection for my images to be displayed and organise extra feature information.
 
 
 

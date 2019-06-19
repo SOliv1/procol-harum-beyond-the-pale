@@ -388,17 +388,82 @@ h4 {
     margin: 25px;
 }
 
+/*-- Gallery Styles --*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 25px;
+    margin-top: auto;
+    padding-bottom: 3rem;
+    font-size: 20px;
+}
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #df4929;
+    border-color: #f05f40;
+    font-size: 15px;
+    float: right;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f05f40;
+    text-align: center;
+}
+
+
+.image {
+    background-image: url("assets/images/backstageband.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 /*-- Media embeds --*/
 
-/*-- Media queries --*/
+.
+/*-- Media queries --
 
-/*-- Media queries --*/
 
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
+
+@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
+
+*/
+
+@media(min-width: 768px) {
+    .bd-placeholder-img-md {
+        font-size: 3.5rem;
     }
 }
