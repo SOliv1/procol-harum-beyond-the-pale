@@ -416,7 +416,14 @@ viii)  I can also clone to desktop by doing the following:-
        - Click the repository name and then click the desktop icon then
        - follow the prompts in Github desktop to complete clone.  For more information, see                  "Cloning a repository from GitHub to GitHub Desktop".
 
+### I use video embeds
+I include videos in my website and to make them responsive - I use Bootstrap documentation to locate how to enable a "responsive embed" I use the following code:
 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+</div>
+
+which resolves the (mobile first) responsive conflict for use on smaller screens and X and Y can view on most mobiles.
 
 #### Resolving Push / Pull Merge Conflicts
 At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:-
@@ -449,7 +456,20 @@ https://help.github.com/en/articles/about-pull-requests
 
 ### this is a test push to see if everything is up-to-date and working properly
 
+### this is a bootstrap feature - Bootstrap Float left and right button bar
+I add a bootstrap feature which I like and styled it at the base of my gallery page.  A float right and float left button bar which I find strikeing and very user friendly to sign up for newsletter and to join sign up for the latest happenings.
 
+### Carousel - Website template &amp. (photo slide show)
+I use a basic "carousel"  template to create some interesting features. I deploy the top interactive carousel without the photograph album slides which I will deploy at a later date.
+Right now there is enough happening without adding more features. This may may require another page (but that is another story another project). but using the headings as a call-out information tool to focus attention on further information, links and signing up for the newsletter.
+It catches attention to encourage the user to learn more.  There is a gallery of pictures on this page with links to further information or listen to music.
 
+### Populating the website  and Conclusion
+The objective, is to bring as much information as posssible into a coherant, attractive and userfriendly space on one userfriendly web-site   Currently there is more than one P. H. website and they are can be found by searching the internet.  Users are not always sure what they are searching for and there is information overload on some of the webpages. Tiny writing and too much information to take in at once. The appearance of two of the websites are a bit dire in my opinion and definately need my expertise to freshen up and revamp their internet presence.  information appears to be disconnected and incoherently scattered, which is fine if y know what y is looking for.  With information in one place, y can find information and the joy of discovering something new too.
 
+With this in mind my website reflects how everything can be consolidated and brought together. This site can be continually refreshed / populated and updated as often as needed, without having to create a different platform in piecemeal fashion to suit a topic or subject. My website will do everything it says on the "tin".  What I demonstrate here is the power of what
+a well organised website can do as a successful and userfriendly presence on the internet. A bright UX and UI experience awaits for all visitors to the site from all walks of life and age levels with a passion for exciting music celebrating fifty years of the legendary Procol Harum.
 
+# A fitting tribute to an illustrious English Band!
+
+                        -Ends-

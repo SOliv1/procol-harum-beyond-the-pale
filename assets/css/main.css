@@ -19,7 +19,6 @@ body {
     background-color: #fbe7e2;
 }
 
-
 /* Containers - creates a scroll flexible background*/
 
 .callout-container {
@@ -78,8 +77,6 @@ body {
     width: 100px;
     color: ffff;
 }
-
-
 
 /*-- Navalert - Navbars --*/
 
@@ -161,7 +158,6 @@ h3 .text-header {
     color: #fff;
 }
 
-
 .jumbotron-header span {
     color: #ce5a2b;
 }
@@ -177,8 +173,6 @@ h3 .text-header {
 .jumbotron-header-1 {
     color: #ce5a2b;
 }
-
-
 
 /*-- Content-container --*/
 
@@ -226,7 +220,6 @@ h3 .text-header {
 }
 
 
-
 .block-divider--dark {
     background-color: #6f42c1;
 }
@@ -270,7 +263,6 @@ h3 {
     font-weight: bold;
     color: fff;
 }
-
 
 
 h4 {
@@ -341,7 +333,7 @@ h4 {
 .btn--red {
     color: white;
     background-color: #f05f40;
-    border-color: #f05f40;
+
 }
 
 .btn--red:hover,
@@ -422,7 +414,7 @@ body {
 .btn-primary:active:focus {
     background-color: #df4929;
     border-color: #df4929;
-    color: white;
+    color: #ce5a2b;
 }
 
 .carousel-caption {
@@ -443,9 +435,34 @@ body {
     height: 100%;
 }
 
+/*--bg-info .clearfix .style --*/
+
+.bg-info {
+    background-color: #ce5a2b! important;
+}
+
+.btn .btn-secondary {
+    color: #fff;
+    background-color: #df4929;
+    border-color: #f05f40;
+    font-size: 15px;
+    float: right;
+}
+
+.btn.btn-secondary:hover,
+.btn.btn-secondary:active,
+.btn-secondart:focus,
+.btn-secondary:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: #ce5a2b;
+}
+
+
+}
+
 /*-- Media embeds --*/
 
-.
 /*-- Media queries --
 
 
