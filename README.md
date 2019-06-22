@@ -1,12 +1,27 @@
 
  ## README.md
+
+ ## A live demo:
+
+ Can be found at StudentProject- My first milestone - user-centric-milestone website:https://soliv1.github.io/poco-harum-beyond-the-pale/
+
+## Technologies Used:
+
+HTML
+CSS
+Bootstrap
+You Tube
+Sound Cloud
+
+
 ## Brief for Poco Harum
 
 This is a website that has been given a complete facelift.  It has a bright, sassy appearance while capturing the "Swinging 60s" mood!
 I think I have provided a UX experience targeted at fans but also to encourage new visitors to the site.
 The Audience has a clearer understanding of where they can access information in a simplified user-friendly way.
 
-##  My sales pitch.
+##  My sales pitch:
+
 
 ### UX
 1) This website is for a target audience who appreciate the music and want to follow an iconic band from the 1960s. The fans both old and new
@@ -26,6 +41,7 @@ provide access to videos and music samples from the past.
 4) I drew a couple of quick diagrams and then transferred to Balsamiq for wireframe mockups.
     I created several wireframes which include website / i-pad / i-phone and responsive.
 
+<!---------------------------------------------------------------------------------------------------->
 
 ### Credits:
 My inspiration and Images come from:-
@@ -40,9 +56,6 @@ My inspiration and Images come from:-
 **cover art for the album "Prodigal Stranger" by the artist Procol Harum. The cover art copyright is believed to belong to the record label or the graphic artist(s).Credits**
 Source
     iv) Audio and visual links to YouTube / Spotify / Amazon websites / wikipedia for their excellent content.
-
-
-
 
 2) website frameworks / structures
    i)   My Whiskey and CV projects in
@@ -63,7 +76,10 @@ http://starling.rinet.ru/music/procol.htm
     i)    Bert Sarco Express image photography
     ii)   Beyond the Pale website
     iii)  Beyond the Deep website
-    iv) Audio and visual links to YouTube / Spotify / Amazon websites
+    iv)   Visual links to YouTube
+          https://www.youtube.com/watch?v=iW2kkivv1ZU
+     V)   Audio links - Sound Cloud
+       https://soundcloud.com/discover
 
 4) Gallery Features - <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
@@ -73,7 +89,7 @@ http://starling.rinet.ru/music/procol.htm
 
 
 ## Features
-  1) I use bootstrap which allows my website to be responsive from a mobile
+  1) I use ####bootstrap#### which allows my website to be responsive from a mobile
     first approach right up to a desktop.
     To refresh my browser I used a hard command + shift + R on my Mac.to update my
     website changes.  This is imperative in order to refresh the page fully and
@@ -94,7 +110,9 @@ http://starling.rinet.ru/music/procol.htm
                                     <li><a target="_blank" href="twitter"><i class="fab fa-twitter-square"></i></a></li>
                                     <li><a target="_blank" href="linkedin"><i class="fab fa-linkedin"></i></a></li>
 
-CSS styles for Social links with hover effect and ease-in-out:
+<!---------------------------------------------------------------------------------------------------->
+####CSS styles####
+for Social links with hover effect and ease-in-out:
 .social-links li a i {
     width: 30px;
     height: 30px;
@@ -137,22 +155,22 @@ iii) Html files are always in the root directory, (the top one). So I tell my ht
 
 This means I am saying to the html file: "from the root directory (where I start from in a html file), I must first look for the *assets* folder(`assets/`), then look for the *css* folder(`assets/css`), and then look for the file named *style.css* (`assets/css/style.css`).
 
-#### But what happens if I need to add links to my images in my *main.css* file? Well then the links *to* the image files *from* the css file are different!
+#### But what happens if I need to add links to my images in my *main.css* file?  the links *to* the image files *from* the css file are different!
 
-Just like giving directions to the supermarket, the directions (path) is different depending on where one starts from.
+ The directions (path) is different depending on where one starts from.
 
 i)So for image links from a css folder one says something different, for example: `../images/pic1.jpg`
 ii)Because the css file is inside a *css folder*, _it cannot see anything but what is in that folder_, there are no other folders inside it.
 
 iii) So the first instruction `../` says *come up out of the current folder* or another way to put it is *move BACK one folder from this one* which in this case would move one up out of the css folder and into the assets folder. From there the file path can see the images folder so the rest of the path `../images/picture.jpg` points the way to the image.
 
-I include a good video to explain file paths further, and to learn the difference between an absolute file path and a relative one: https://www.youtube.com/watch?v=ephId3mYu9o.
+I include a good video to explain file paths further, and to learn the difference between an absolute file path and a relative one:
+https://www.youtube.com/watch?v=ephId3mYu9o.
 
 4) I include in my second page a Carousel Gallery from the 'Bootstrap template' collection for my images to be displayed and organise extra feature information.
 
+<!---------------------------------------------------------------------------------------------------->
 
-
-------
 2) ### UX process
 In this section I provide an insight into the UX process, focusing on who this website is for, what it is that they want to achieve and how this project is the best way to help them achieve these objectives.
 
@@ -199,12 +217,13 @@ They like to view the pictures and be drawn into the nostalgia of the past; anot
 The look and feel of the website reflects the music and the era through audio / video media, and is paramount. The quick access to relevant content is also a must have.
 
 **This section is where I share links to wireframes, mockups, diagrams etc. I created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.**still to add**
-
+<!---------------------------------------------------------------------------------------------------->
 ## Features
 In this section below, I cover different aspects of my project, incorporating some of the features I mentioned above.
 
 ## User Stories
 README.md continued...
+
 ## Procol Harum 1960s Band User stories:
  John and his wife Jane, met in the heady summer of 1967 and remember well their time on that warm far off sunny day when they met for the first time at Glastonbury.
  They both remember that feeling of natural love and freedom to do what they want, and listen to the music that reflected their carefree mood.
@@ -226,36 +245,38 @@ README.md continued...
 4. Andy is getting married soon and wants to find a band that incorporates the music of Procol Harum for his wedding and also wants to book his surprise honeymoon to Switzerland.
 5. He and his fiancé dream of seeing P H in concert in idyllic surroundings reflecting their soft rock and baroque music. They want to reserve their place and find out where to go and what to do. There are two concerts and they will be following their heroes to each destination. Information is available on the website via the links to find out what where and how to go about making this a reality for
 them. A new facebook page regularly updated has been given pride of place on the home page to all fans to follow and keep them in the loop.
-
+<!---------------------------------------------------------------------------------------------------->
 ### Conclusion
 Making this website as user friendly as possible is key as many of the legions of fans are of a certain age where computers were not necessarily a part of their lives. Hence also, the site should appeal to young and professionals alike. Those who have a deep appreciation of real music and musicians, should be able to feel comfortable using it, without feeling it is a stuffy place for a past generation.
 Users should be able to quickly click and find relevant content.
 
 On the other end of the spectrum older generations daunted by technology, are made to feel as comfortable as possible and want to return time and again to a friendly atmospheric place. The objectiive of this site is to make the user feel at home. To provide the information they may need in a
 visual user friendly experience. ( UI = navigation / user experience - visually attractive with a clear interest in the needs of the user - I need to establish  "why they are here / and provide learnability.  This means an easy to understand providing  bite size information - I should  provide information so that os user feels  ui = navigation / user experience - visually attractive. clear interest in their needs - why they are here / learnablility -easy to understand / bite size information - keep your information in bite size pieces - looking for  one or two target things and move on with their lives.  - be subtle in your information.  - looking for  one or two target things and move on with their lives.  - be subtle in your information.
-
+<!---------------------------------------------------------------------------------------------------->
 #### Atmosphere/Mood - a website for everyone who loves the era of music from an iconic 1960s Band
 Soft furnishings, warm light, a little bit of psychedelic. This website should appeal to a wide and diverse age group without excluding anyone. Target audience 20s and 30s right up to those in their 70s.
+                                -Ends-User Stories-Ends-
+<!---------------------------------------------------------------------------------------------------->
 
------
 /* Features Left to Implement
 Another feature idea */
 
 ### Technologies Used
-In this section, I mention all of the languages, frameworks, libraries, and any other tools that I have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+In this section: Frameworks, libraries, and any other tools that I have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+<!---------------------------------------------------------------------------------------------------->
 #### HTML audio tag
 I used this as an audio base for listening to a sample of Procola Harum's music:-
 w3schools.com
 Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.
------
+However, I decided not to use this and replace it with the Cloud
+<!---------------------------------------------------------------------------------------------------->
 <audio controls>
   <source src="horse.ogg" type="audio/ogg">
   <source src="horse.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio>
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_audio
------
+<!---------------------------------------------------------------------------------------------------->
 #### Embed Video
 https://www.w3schools.com/html/html_youtube.asp
 (w3schools.com)
@@ -272,29 +293,26 @@ iii)  Define an <iframe> element in your web page
 I use this on my website to showcase examples of videos from the era of Procol Harum such as
 "Whiter Shade of Pale"
 
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
 **Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.**
-
+<!---------------------------------------------------------------------------------------------------->
 #### Contact form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+<!---------------------------------------------------------------------------------------------------->
+####  Bugs or problems I discovered during testing:
 
-#### Mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-I had problems making my background images appear in my git hub website.  I had tried a number of different methods and ways of changing my file paths to suit git hub.
-I discover theat what appears to suit chrome and firefox websites does not necessarily my site is compatible with git hub.  After much trial and error, I finally manage
+I had problems making my background images appear in my git hub website.
+I  tried a number of different methods and ways of changing my file paths to suit git hub.
+I discover what appears to suit chrome and firefox websites does not necessarily mean my site is compatible with git hub.
+After much trial and error, I finally manage
 to make the background images appear and I think it was something more to do with clearing my
-css code of unnecesary clutter. Once I deleted a series of codes and pushed my work to github the
-images magically appeared.  So I think it may have been a combination of factors involving
-file paths and clearing my main.css of code clutter during the website building process.
+css code of unnecesary clutter.
+Once I deleted a series of codes and pushed my work to github the
+images magically appeared.
+So I think it may have been a combination of factors involving file paths and clearing my main.css of code clutter during the website building process.
 for example I finally settled for the following image path which seems to work.
 See my example here:-
 
@@ -309,8 +327,11 @@ See my example here:-
     justify-content: center;
 
     position: relative;
-
-    My lovely "social Links" which I love and felt inspired to use from the #####Code Institute-Mini Project with Bootstrap 4, Resume Project##### were causing me a headache.  When I was building my site quite a number of times I accidently upset the structure of my code.
+<!------------------------------------------------------------------------------------------------>
+    My lovely "social Links" I was inspired to use from the
+    ##### Code Institute-Mini Project with Bootstrap 4, Resume Project#####
+    were causing me a headache.
+    When I was building my site quite a number of times I accidently upset the structure of my code.
     This seem to cause the code to intermintantly cause my social media to lose all its lovely styles, especially when I gitbubed it.  Several times I had to return to an earlier commit to try to resolve this.
     As I did not know exactly what the problem was, after trial and error and reaching out to the wonderful Slack Community, I finally fix the social links code structure - See my html and css codes below:-
 
@@ -332,7 +353,7 @@ See my example here:-
             </div>
         </footer>
                     {% endcodeblock %}
-
+<!---------------------------------------------------------------------------------------------------->
 
 .social-links li {
     display: inline;
@@ -365,7 +386,7 @@ See my example here:-
  href="" for my links need to be _an actual link_ or `#` between the quotes. I fixed those links but that did not quite work, however, in doing so I notice that because
   social-links is a class, it needs a `.` before it in my css.  One problem solved and then finally to bring my social links to life on my website I target the
 `.social-links li`  and then changed inline-block to  just `inline`.  I am glad to report problem permanantly solved.
-
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
 #### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -385,7 +406,7 @@ V)  Github pages notifys me that my site is ready at  http//:poco-harum-beyond-t
 References:
 https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
 
-
+<!---------------------------------------------------------------------------------------------------->
 #### Cloning my Repository
 
 i)  When I create a repository on GitHub, it exists as a remote repository. I can clone my repository so that I create a local copy on my computer and sync between the two locations.
@@ -415,7 +436,7 @@ viii)  I can also clone to desktop by doing the following:-
        - navigate to the main page of the repository on Github
        - Click the repository name and then click the desktop icon then
        - follow the prompts in Github desktop to complete clone.  For more information, see                  "Cloning a repository from GitHub to GitHub Desktop".
-
+<!---------------------------------------------------------------------------------------------------->
 ### I use video embeds
 I include videos in my website and to make them responsive - I use Bootstrap documentation to locate how to enable a "responsive embed" I use the following code:
 
@@ -424,24 +445,24 @@ I include videos in my website and to make them responsive - I use Bootstrap doc
 </div>
 
 which resolves the (mobile first) responsive conflict for use on smaller screens and X and Y can view on most mobiles.
-
+<!---------------------------------------------------------------------------------------------------->
 #### Resolving Push / Pull Merge Conflicts
 At one stage of the git commit process - I git pushed and git pulled and merged several different sections but ran into conflicts on my git hub remote and unable to git hub to the remote repository I had to resolve conflicts and merges. I was given directions via "Slack" on how to do this which I have added for future reference here:-
 i) The areas marked with >>>> are marking where your local files are and the ones pulled from     github are different.
 
-ii) Cloud9 doesn't know which ones  to keep and which to get rid of.
+ii) Cloud9 doesn't know which ones to keep and which to get rid of.
 
-iii) So go through all those places, remove any code you don't need any more. and take out all the >>>> lines with the numbers and letters in until your code looks the way you need it to to keep moving forward.
+iii) So go through it, remove any code not needed any more.  Take out all the >>>> lines with the numbers and letters in until the code looks the way it should to move forward.
 
-iv) Once they are all removed then save all the files.
+iv) Once they are all removed, save all the files.
 then Git add, git commit with the message "fixed merge conflicts"
 then push it to github so everything is in sync.
 
-V) Once you have done that in your terminal (master | MERGING)  should return to just (master) and you are good to keep moving forward again. (edited)
+V) Once this is done in my terminal (master | MERGING) it should return to just (master) to move forward.
 
-Fortunately I am able to git log then set to a previous commit on github and move on.
+Fortunately I am able to git log then set to a previous commit on github.
 
-**In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+//**In particular, one provide all details of the differences between the deployed version and the development version, if any, including:
 
 Different values for environment variables (Heroku Config Vars)?
 
@@ -449,14 +470,14 @@ Different configuration files?
 
 Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+In addition, if it is not obvious, you should also describe how to run your code locally.//
 
 Click below link for further information regarding pull requests:-
 https://help.github.com/en/articles/about-pull-requests
 
-### this is a test push to see if everything is up-to-date and working properly
-
-### this is a bootstrap feature - Bootstrap Float left and right button bar
+### This is a test push to see if everything is up-to-date and working properly
+<!---------------------------------------------------------------------------------------------------->
+### Technologies Used: This is a bootstrap feature - Bootstrap Float left and right button bar
 I add a bootstrap feature which I like and styled it at the base of my gallery page.  A float right and float left button bar which I find strikeing and very user friendly to sign up for newsletter and to join sign up for the latest happenings.
 
 ### Carousel - Website template &amp. (photo slide show)
@@ -464,7 +485,7 @@ I use a basic "carousel"  template to create some interesting features. I deploy
 Right now there is enough happening without adding more features. This may may require another page (but that is another story another project). but using the headings as a call-out information tool to focus attention on further information, links and signing up for the newsletter.
 It catches attention to encourage the user to learn more.  There is a gallery of pictures on this page with links to further information or listen to music.
 
-### Populating the website  and Conclusion
+### Populating the website and Conclusion
 The objective, is to bring as much information as posssible into a coherant, attractive and userfriendly space on one userfriendly web-site   Currently there is more than one P. H. website and they are can be found by searching the internet.  Users are not always sure what they are searching for and there is information overload on some of the webpages. Tiny writing and too much information to take in at once. The appearance of two of the websites are a bit dire in my opinion and definately need my expertise to freshen up and revamp their internet presence.  information appears to be disconnected and incoherently scattered, which is fine if y know what y is looking for.  With information in one place, y can find information and the joy of discovering something new too.
 
 With this in mind my website reflects how everything can be consolidated and brought together. This site can be continually refreshed / populated and updated as often as needed, without having to create a different platform in piecemeal fashion to suit a topic or subject. My website will do everything it says on the "tin".  What I demonstrate here is the power of what
