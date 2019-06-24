@@ -114,7 +114,17 @@ http://starling.rinet.ru/music/procol.htm
 
 <!---------------------------------------------------------------------------------------------------->
 ####CSS styles####
-for Social links with hover effect and ease-in-out:
+
+#### Anchor links
+
+The facebook lead button is disabled.  However the hover effect works on the "facebook and icon".
+It is supposed to link via the <a> to the facebook in the social links section at the bottom of the page.
+There also should be anchor links from the bottom of the page to the centre and top of the website pages.  T
+hese have not been deployed as yet. But in the real world should be for easier navigation either via the scrolling effect or the anchor links.
+
+#### Social links
+
+For Social links with hover effect and ease-in-out:
 .social-links li a i {
     width: 30px;
     height: 30px;
@@ -143,9 +153,10 @@ for Social links with hover effect and ease-in-out:
     margin: 25px;
 }
 ### File Paths
-I had an issue with my file structure. My images were in the css folder instead of a separate images folder ( *see illustration below) in the main assets folder and my css folder was not properly represented inside my assets folder,  so in order to remedy this, I learned that "File Paths are like directions". I direct the files where to look for other files within my file structure.
+I had an issue with my file structure. My images were in the css folder instead of a separate images folder ( *see illustration below) inside the main assets folder.
+My css folder was not properly represented inside my assets folder,  so in order to remedy this, I learned that "File Paths are like directions", directing the files where to look for other files within my file structure.
 
-#### So lets imagine I have this file structure - see example:
+#### Example file structure :
 -- top directory: *root* contains html file(s) and README.md. It also contains an *assets* directory/folder.
 ---- *assets* directory: contains 2 more directories: *css* and *images*
 ------*css* directory contains a *main.css* file.
@@ -157,9 +168,9 @@ iii) Html files are always in the root directory, (the top one). So I tell my ht
 
 This means I am saying to the html file: "from the root directory (where I start from in a html file), I must first look for the *assets* folder(`assets/`), then look for the *css* folder(`assets/css`), and then look for the file named *style.css* (`assets/css/style.css`).
 
-#### But what happens if I need to add links to my images in my *main.css* file?  the links *to* the image files *from* the css file are different!
+#### But what occurs should I add links to my images in my *main.css* file?  the links *to* the image files *from* the css file are different!
 
- The directions (path) is different depending on where one starts from.
+ Therefore the direction (path) is different depending on where one starts from.
 
 i)So for image links from a css folder one says something different, for example: `../images/pic1.jpg`
 ii)Because the css file is inside a *css folder*, _it cannot see anything but what is in that folder_, there are no other folders inside it.
@@ -294,6 +305,8 @@ iii)  Define an <iframe> element in your web page
 
 I use this on my website to showcase examples of videos from the era of Procol Harum such as
 "Whiter Shade of Pale"
+
+In the "Anthology" section I would like to showcase many more videos in an overflow scroll to the right section. Use the scroll to the  right to access a collection of more videos.
 
 **Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.**
 <!---------------------------------------------------------------------------------------------------->
@@ -479,6 +492,7 @@ https://help.github.com/en/articles/about-pull-requests
 
 ### This is a test push to see if everything is up-to-date and working properly
 <!---------------------------------------------------------------------------------------------------->
+
 ### Technologies Used: This is a bootstrap feature - Bootstrap Float left and right button bar
 I add a bootstrap feature which I like and styled it at the base of my gallery page.  A float right and float left button bar which I find strikeing and very user friendly to sign up for newsletter and to join sign up for the latest happenings.
 
@@ -487,11 +501,62 @@ I use a basic "carousel"  template to create some interesting features. I deploy
 Right now there is enough happening without adding more features. This may may require another page (but that is another story another project). but using the headings as a call-out information tool to focus attention on further information, links and signing up for the newsletter.
 It catches attention to encourage the user to learn more.  There is a gallery of pictures on this page with links to further information or listen to music.
 
-### Populating the website and Conclusion
-The objective, is to bring as much information as posssible into a coherant, attractive and userfriendly space on one userfriendly web-site   Currently there is more than one P. H. website and they are can be found by searching the internet.  Users are not always sure what they are searching for and there is information overload on some of the webpages. Tiny writing and too much information to take in at once. The appearance of two of the websites are a bit dire in my opinion and definately need my expertise to freshen up and revamp their internet presence.  information appears to be disconnected and incoherently scattered, which is fine if y know what y is looking for.  With information in one place, y can find information and the joy of discovering something new too.
+<!---------------------------------------------------------------------------------------------------->
+### Contact Page &amp; Submit Form - Bug unresolved NOW resolved
 
-With this in mind my website reflects how everything can be consolidated and brought together. This site can be continually refreshed / populated and updated as often as needed, without having to create a different platform in piecemeal fashion to suit a topic or subject. My website will do everything it says on the "tin".  What I demonstrate here is the power of what
-a well organised website can do as a successful and userfriendly presence on the internet. A bright UX and UI experience awaits for all visitors to the site from all walks of life and age levels with a passion for exciting music celebrating fifty years of the legendary Procol Harum.
+I use a combination of W3 schools and inspired by usercentric ucd -"resume project" styled to suit the needs of the website.
+https://www.w3schools.com/php/php_forms.asp
+
+I am having trouble with the layout of the form and will need to fix this bug - I have not managed to rectify this yet.  But I want to include the form to show
+the error message in the submit form.  I need to resolve this error.  I am  unable to deploy the above menu at this stage - It has disappeared fromt the top of the website although the logo is still there.  I want to be able to link back to the "Home" page.
+I delete the menu layout code and head over to my index.html page; copy and paste exactly as it is, and then hard refresh my contact code.  This time it works and
+I resolve the bug.
+
+### Search button
+The search button is disabled.  Although I add the search button, I have not worked out how to link this to finding information on the website yet.  I need to resolve this at some point.
+
+### Validation Process
+
+In index.html found the following message:
+
+Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+
+From line 351, column 25; to line 351, column 340
+
+<iframe width="100%" height="300" scrolling="no"frameborder="no" allow="autoplay" src="https://w.so…ed=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&vi
+
+
+### Validation Process
+
+Error: The scrolling attribute on the iframe element is obsolete. Use CSS instead.
+
+From line 365, column 25; to line 365, column 337
+
+          <iframe width="100%"
+
+I could not find the width substitute for 100% in i-frame
+https://html.spec.whatwg.org/multipage/dom.html#heading-content-2
+
+Resolved by removing the obsolete attribute and using CSS instead:
+frameborder on iframe elements	'border' on iframe
+
+https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes
+<!---------------------------------------------------------------------------------------------------->
+
+### Populating the website and Conclusion
+The objective, is to bring as much information as posssible into a coherant, attractive and userfriendly space on one web-site.
+Currently a thorough search of the internet is needed to find information and there is more than one Procal Harum website.
+They are can be found by searching the internet.
+Users are not always sure what they are searching for and there is information overload on some of the webpages.
+Tiny writing and too much information to take in at once.
+The appearance of two of the websites are a bit dire in my opinion and definately need my expertise to freshen up and revamp their internet presence.
+Information appears to be disconnected and incoherently scattered, which is fine if y know what y is looking for.
+With information in one place, y can find information and the joy of discovering something new too.
+
+With this in mind my website reflects how everything can be consolidated and brought together. This site can be continually refreshed / populated and updated as often as needed, without having to create a different platform in piecemeal fashion to suit a topic or subject.
+My website will do everything it says on the "tin".  What I demonstrate here is the power of what
+a well organised website can do as a successful and userfriendly presence on the internet.
+A bright sassy UX and UI experience awaits the visitor to the site from all walks of life and age level with a passion for exciting music celebrating fifty years of the legendary Procol Harum.
 
 # A fitting tribute to an illustrious English Band!
 

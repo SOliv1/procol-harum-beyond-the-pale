@@ -1,5 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900) */
 
+/* Home-Page-------------------------------------------------- */
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -104,14 +106,12 @@ li a:hover:not(.active) {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-
-/*-- Images --*/
-
 .wrapper {
     height: 100px;
     width: 100px;
     color: ffff;
 }
+
 
 /*-- Navalert - Navbars --*/
 
@@ -170,6 +170,26 @@ h3 .text-header {
     text-align: center;
 }
 
+p {
+    box-sizing: border-box;
+    color: ffff;
+    background-color: transparent;
+    text-align: center;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+a:hover {
+    color: #00BCD4;
+    text-decoration: none;
+}
+
+
 .jumbotron-header h2 {
     width: 1000px;
     clear: both;
@@ -177,6 +197,7 @@ h3 .text-header {
     font-size: 72px;
     line-height: 80px;
 }
+
 
 /*-- Colours --*/
 
@@ -240,6 +261,8 @@ h3 .text-header {
 .img .style .height {
     background-image: url("..images/poco-6.png");
 }
+
+/*-- Images-2 --*/
 
 /*-- Block dividers --*/
 
@@ -414,7 +437,7 @@ h4 {
     margin: 25px;
 }
 
-/*-- Gallery Styles --*/
+/*-- Gallery-Styles ---------------------------------------------------- */
 
 body {
     font-family: 'Lato', sans-serif;
@@ -501,7 +524,6 @@ p span {
     text-align: center;
 }
 
-
 .image {
     background-image: url("assets/images/backstageband.png");
     background-size: cover;
@@ -545,7 +567,8 @@ p span {
     color: #ce5a2b;
 }
 
-/*-- Contact Form --*/
+
+/*-- Contact-Form ----------------------------------------------*/
 
 h5 .uppercase text-center {
     font-weight: bold;
