@@ -12,6 +12,8 @@ CSS
 Bootstrap
 You Tube
 Sound Cloud
+Html/ Css Validators
+https://validator.w3.org/nu/#textarea
 
 
 ## Brief for Poco Harum

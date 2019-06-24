@@ -12,76 +12,95 @@
         <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
     </head>
 
-    <body>
-        <div class="container-fluid navalert-container">
-            <nav class="navbar navbar-dark navbar-expand-sm">
-                <div class="#home navbar-logo">Procol Harum
-                </div>
-                <div class="navbar-logo">Procol Harum
-                </div>
-                <div id=contact.html/>
-                <!-- Nav-bar-collapse -->
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="navbarDropdownMenulink">Home</a>
-                                <a class="dropdown-item" href="#about-header">About</a>
-                                <a class="dropdown-item" href="#happenings-">Happenings</a>
-                                <a class="dropdown-item" href="#concerts">Concerts</a>
-                                <a class="dropdown-item" href="#anthology.html">Anthology</a>
-                                <a class="dropdown-item" href="#contact.html">Contact</a>
-                            </div>
-                        </li>
-                    </ul>
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <div class="navbar-logo" href="index.htm" "navbar-logo">Procol Harum
+            </div>
+            <button class="navbar-toggler ml-auto " type="button " data-toggle="collapse " data-target="#navbarNavDropdown " aria-controls="navbarNavDropdown " aria-expanded="false " aria-label="Toggle navigation ">
+                    <span class="navbar-toggler-icon "></span>
+                    <div id=contact.html>
+                    <!-- Nav-bar-collapse -->
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown ">
+                        <ul class="navbar-nav mr-auto ">
+                            <li class="active nav-item mr-2 "><a class="nav-link " href="/ ">Home</a></li>
+                            <li class="nav-item mr-2 "><a class="nav-link " href="/about ">About</a></li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle " href="# " id="navbarDropdownMenuLink " role="button " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                </a>
+                                <a href="index.html">
+                                <div class="col-md-4 logo></div>
+                                </a>
+                                <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink ">
+                                    <a class="dropdown-item " href="navbarDropdownMenulink ">Home</a>
+                                    <a class="dropdown-item " href="about-header ">About</a>
+                                    <a class="dropdown-item " href="happenings- ">Happenings</a>
+                                    <a class="dropdown-item " href="concerts ">Concerts</a>
+                                    <a class="dropdown-item " href="anthology.html ">Anthology</a>
+                                    <a class="dropdown-item " href="contact.html ">Contact</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
-        <header>
 
-        </header>
-        <main>
+        <header>
+            <section class="container-wrapper container-wrapper--red ">
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col ">
+                        <form>
+                            <h3 class="contact-heading uppercase text-center ">Got any questions - want to find out what what we are up to? Sign up</h3>
+                            <h5 class="uppercase text-center ">Join our lovely fan base after all, your support and appreciation of our music helped made us who we are today</h5>
+                            <h2>Join Us on our Journey - send us your comments</h2>
+                        <form method="post " action="<?php echo htmlspecialchars($_SERVER[ "PHP_SELF"]);? ">
+                              Name: <input type="text " name="name " required>
+                            <br><br>
+                              E-mail: <input type="text " name="email " required>
+                            <br><br>
+                              Comment: <textarea name="comment " required rows="5 " cols="40 "></textarea>
+                            <br><br>
+                            <div class="form-row text-center ">
+                                <div class="col ">
+                                    <button type="submit " class="btn btn-secondary ">Send Your Comments</button>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    </section>
+    </header>
+
+
+
+    <section>
+        <h4>Want to know more about Procol Harum, Beyond the Pale. Just want to send us an email</h4>
+        <h4 id="email-header ">Email us</h4>
+        <i class="fas fa-envelope "></i>
+        <a href="mailto:hello@procolharum.co.uk ">
+
+
             <footer>
-                <footer class="container">
-                    <div class="container container-wrapper--pale">
-                        <div class='row'>
-                            <div class="col">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="container container-wrapper--pale">
-                        <div>
-                            <h4>Want to know more about Procol Harum - Beyond the Pale</h4>
-                            <h4 id="email-header">Email us</h4>
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:hello@procolharum.co.uk">
-                                </>hello[@]procoharum.co.uk>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <h5 class="uppercase general-sub">Social Media</h5>
-                        <ul class="list-inline social-links">
-                            <li><a target="_blank" href="facebook"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a target="_blank" href="twitter"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a target="_blank" href="linkedin"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a target="_blank" href="pinterest"><i class="fab fa-pinterest-square"></i></a></li>
-                            <li><a target="_blank" href="instagram"><i class="fab fa-tumblr-square"></i></a></li>
-                            <li><a target="_blank" href="youtube"><i class="fab fa-youtube-square"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                    </div>
-                </footer>
-        </main>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+                <div class="col-sm-4 ">
+                    <h5 class="uppercase general-sub ">Social Media</h5>
+                    <ul class="list-inline social-links ">
+                        <li><a target="_blank " href="#facebook "><i class="fab fa-facebook-square "></i></a></li>
+                        <li><a target="_blank " href="#twitter "><i class="fab fa-twitter-square "></i></a></li>
+                        <li><a target="_blank " href="#linkedin "><i class="fab fa-linkedin "></i></a></li>
+                        <li><a target="_blank " href="#pinterest "><i class="fab fa-pinterest-square "></i></a></li>
+                        <li><a target="_blank " href="#instagram "><i class="fab fa-tumblr-square "></i></a></li>
+                        <li><a target="_blank " href="#youtube "><i class="fab fa-youtube-square "></i></a></li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
+            </body>
 
 </html>
