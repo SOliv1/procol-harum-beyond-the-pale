@@ -575,6 +575,25 @@ h5 .uppercase text-center {
     color: black;
 }
 
+p {
+    box-sizing: border-box;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: black
+}
+
+.emailer {
+    font-size: .8em;
+    margin: 40px 25px 40px 25px;
+}
+
+.emailer b {
+    font-weight: bold;
+}
+
+
+/*-- End - Contact-Form ----------------------------------------------*/
+
 /*-- define variables and set to empty values----*/
 
 /*-- Media embeds --*/
