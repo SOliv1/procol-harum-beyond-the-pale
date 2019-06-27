@@ -317,8 +317,70 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 <!---------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------->
 ####  Bugs or problems I discovered during testing:
 
+##### Background Images on home page too big on mobile - iphone - ipad. Bug: UNRESOLVED
+
+I want the background image to scale to fit the whole screen, maintain aspect ratio and be fixed (so if you scroll down, the background image stays in the same place).
+I have achieved this in desktop browsers with the CSS below, but it doesn't work on an iPhone or iPad.
+On those devices the background is too big (it continues below the fold) and if you scroll down far enough, the image will start repeating. I found a fix via the Slack Community.  This is the new css code below as follows:
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("../images/poco-8.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+I am trying out different solutions
+
+###### The Previous Code I replaced with above code is below:
+/* Containers - creates a scroll flexible background*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/poco-8.png") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+###### I have now returned to the Previous Code I had briefly replaced - am adjusting media queries instead.
+<!---------------------------------------------------------------------------------------------------->
+###### Spacings and responsiveness:
+
+• I need to work on spacings, margins and properly aligning items and elements on the site
+• Responsiveness still needs a bit more work e.g. on the tablet view, there is a white space to the right of the page on mobile and tablet views.
+
+<!---------------------------------------------------------------------------------------------------->
+
+##### Testing images on different browsers
 I had problems making my background images appear in my git hub website.
 I  tried a number of different methods and ways of changing my file paths to suit git hub.
 I discover what appears to suit chrome and firefox websites does not necessarily mean my site is compatible with git hub.

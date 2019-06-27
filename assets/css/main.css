@@ -74,6 +74,9 @@ li a:hover:not(.active) {
     position: relative;
 }
 
+
+
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -85,15 +88,21 @@ li a:hover:not(.active) {
 
 /*media beyond deep scroll flexible background*/
 
-.container-fluid .callout-container .media {
-    background-attachment: fixed;
-    background-image: url("../images/backstageband.png") no-repeat bottom right fixed;
-    background-position: left;
+.container-fluid .callout-container .media .image {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("../images/backstageband.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 100px;
-    padding-top: 42px;
-    text-align: left;
-    margin-bottom: 30px;
+    background-attachment: scroll;
 }
 
 
@@ -233,14 +242,14 @@ a:hover {
 /*-- Content-container --*/
 
 .content-container {
-    padding-top: 55px;
+    padding-top: 65px;
     padding-bottom: 75px;
     margin: 35px;
 }
 
 .container-fluid .about-container {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -251,12 +260,6 @@ a:hover {
 }
 
 /*-- Images --*/
-
-.img .style .height {
-    background-image: url("..images/poco-9.png");
-    background-repeat: no-repeat;
-    height: 150px;
-}
 
 .img .style .height {
     background-image: url("..images/poco-6.png");
@@ -606,30 +609,58 @@ p {
 @media (min-width: 768px) { ... }
 
 
-@media (min-width: 992px) { ... }
+
+
 
 @media (min-width: 1200px) { ... }
 
 
 /* RESPONSIVE CSS
--------------------------------------------------- */
+--------------------------------------------------*/
 
-@media (min-width: 40em) {
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
+/*-- Big info disappears on mobiles to avoid conflict with social-links --*/
+
+@media (min-width: 992px) {
+    .bg-info {
+        background-color: #ce5a2b;
     }
 
-    .featurette-heading {
-        font-size: 50px;
-    }
-}
-
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
+    .btn .btn-secondary {
+        color: #fff;
+        background-color: #df4929;
+        border-color: #f05f40;
+        font-size: 15px;
+        float: right;
     }
 
-}
+    .btn.btn-secondary:hover,
+    .btn.btn-secondary:active,
+    .btn-secondart:focus,
+    .btn-secondary:active:focus {
+        background-color: #df4929;
+        border-color: #df4929;
+        color: #ce5a2b;
+    }
+
+
+
+
+    @media (min-width: 40em) {
+        /* Bump up size of carousel content */
+        .carousel-caption p {
+            margin-bottom: 1.25rem;
+            font-size: 1.25rem;
+            line-height: 1.4;
+        }
+
+        .feature-heading {
+            font-size: 50px;
+        }
+    }
+
+    @media (min-width: 62em) {
+        .featurette-heading {
+            margin-top: 7rem;
+        }
+
+    }
