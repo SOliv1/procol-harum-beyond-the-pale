@@ -90,7 +90,7 @@ http://starling.rinet.ru/music/procol.htm
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
 
 
-## Features
+### Features
   1) I use ####bootstrap#### which allows my website to be responsive from a mobile
     first approach right up to a desktop.
     To refresh my browser I used a hard command + shift + R on my Mac.to update my
@@ -113,7 +113,7 @@ http://starling.rinet.ru/music/procol.htm
                                     <li><a target="_blank" href="linkedin"><i class="fab fa-linkedin"></i></a></li>
 
 <!---------------------------------------------------------------------------------------------------->
-####CSS styles####
+#### CSS styles
 
 #### Anchor links
 
@@ -184,12 +184,12 @@ https://www.youtube.com/watch?v=ephId3mYu9o.
 
 <!---------------------------------------------------------------------------------------------------->
 
-2) ### UX process
+ ### UX Process
 In this section I provide an insight into the UX process, focusing on who this website is for, what it is that they want to achieve and how this project is the best way to help them achieve these objectives.
 
 ### I include a list of user stories to illustrate this process, with the following general structure:
-
 #### Some Actions to illustrate how as a user type, I want to perform an action, so that I can achieve a goal:-
+
 #### Navbar collapse / NavDropdown
 i)I use a "navbar collapse" for a responsive website. example:
 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -221,13 +221,10 @@ and takes the user seemlessly to the desired section.  Social links are always a
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open   Modal</button>
 
-
 3) ### To organise information from other websites - I redirect links to target websites without leaving the current one. I also create social links and "callout lead" to draw attention to their new Facebook page encouraging users to follow them on Facebook.
 
-4) ### With the boys in the contemporary 21st century.
-They like to view the pictures and be drawn into the nostalgia of the past; another world and at the same time be brought up to date with what is happening. Catch the music from the era by listening to audios and be guided on where to find Procol Harum’s music and research info and lyrics quickly and easily via search links to other websites.
 
-The look and feel of the website reflects the music and the era through audio / video media, and is paramount. The quick access to relevant content is also a must have.
+4) ### The look and feel of the website reflects the music and the era through audio / video media, and is paramount. The quick access to relevant content is also a must have.
 
 **This section is where I share links to wireframes, mockups, diagrams etc. I created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.**still to add**
 <!---------------------------------------------------------------------------------------------------->
@@ -238,6 +235,7 @@ In this section below, I cover different aspects of my project, incorporating so
 README.md continued...
 
 ## Procol Harum 1960s Band User stories:
+### Story 1
  John and his wife Jane, met in the heady summer of 1967 and remember well their time on that warm far off sunny day when they met for the first time at Glastonbury.
  They both remember that feeling of natural love and freedom to do what they want, and listen to the music that reflected their carefree mood.
  “Procol Harum” was a particular favourite of theirs; never failing to draw them back to that wonderful and swinging time of their early lives.
@@ -245,16 +243,25 @@ README.md continued...
  Catch the music from the era by listening to audios and be guided on where to find Procol Harum’s music quickly and easily via search links to other websites.
 ### "The look and feel of the website reflecting the music, the era via videos and other media, is paramount. The quick access to relevant content is also a must have".
 
+### Story 2
    Jack and his young group of 21st century band leaders are looking for modern contemporary music with a twist. Procol Harum is on their “inspiration list”.
    He and his peers are looking to soak up as much of the ethos of Procol Harum and find out what makes them tick and their music so evocative.
    They like rythmn and blues and harmonies as well as soft rock.
    They want to be able to navigate their way through the information on offer on the website without having to leave the site altogether.
-   # Having the site as a base for searching all things “P H” suits them. They are busy band players and want to access information quickly and easily.
 
+   # Having the site as a base for searching all things “P H” suits them. They are busy band players and want to access information quickly and easily.
+     ### Story 2 - Referring to the boys in the contemporary 21st century.
+                    They like to view the pictures and be drawn into the nostalgia of the past; another world and at the same time be brought up to date with what is happening.
+                    Catch the music from the era by listening to audios and be guided on where to find Procol Harum’s music and research info and lyrics quickly and easily via search links to other websites.
+
+
+### Story 3
     Another couple James and his long term partner Storm, have been together since the 1970s and own and work hard on their farm. They live an idyllic life with no children, but plenty of chickens, ducks, horses, goats, four dogs and two cats.
     They love to listen to the P H music and keep up with the band. They follow them religiously and like to keep track with the “happenings”. Easy access navigation Bar and clicking their way around, encourages them to explore.
      Neither of the couple are particularly computer savvy but can find their way around an easy user friendly website.
 
+
+### Story 4
 4. Andy is getting married soon and wants to find a band that incorporates the music of Procol Harum for his wedding and also wants to book his surprise honeymoon to Switzerland.
 5. He and his fiancé dream of seeing P H in concert in idyllic surroundings reflecting their soft rock and baroque music. They want to reserve their place and find out where to go and what to do. There are two concerts and they will be following their heroes to each destination. Information is available on the website via the links to find out what where and how to go about making this a reality for
 them. A new facebook page regularly updated has been given pride of place on the home page to all fans to follow and keep them in the loop.
@@ -264,11 +271,17 @@ Making this website as user friendly as possible is key as many of the legions o
 Users should be able to quickly click and find relevant content.
 
 On the other end of the spectrum older generations daunted by technology, are made to feel as comfortable as possible and want to return time and again to a friendly atmospheric place. The objectiive of this site is to make the user feel at home. To provide the information they may need in a
-visual user friendly experience. ( UI = navigation / user experience - visually attractive with a clear interest in the needs of the user - I need to establish  "why they are here / and provide learnability.  This means an easy to understand providing  bite size information - I should  provide information so that os user feels  ui = navigation / user experience - visually attractive. clear interest in their needs - why they are here / learnablility -easy to understand / bite size information - keep your information in bite size pieces - looking for  one or two target things and move on with their lives.  - be subtle in your information.  - looking for  one or two target things and move on with their lives.  - be subtle in your information.
+visual user friendly experience.
+-( UI = navigation / user experience - visually attractive with a clear interest in the needs of the user - I need to establish  "why they are here / and provide learnability.  This means an easy to understand providing  bite size information.
+-I should  provide information so that os user, it looks easy to use:- ui = navigation / user experience - visually attractive. clear interest in their needs - why they are here / learnablility -easy to understand / bite size information - keep information in bite size pieces.
+-Look for  one or two target things and move on with their lives.
+-Be subtle in  information.  - looking for one or two target topics and move on with their lives.  -
+-Be subtle in compiling and collating information in order to continue to entice user to find out / read more.....
 <!---------------------------------------------------------------------------------------------------->
 #### Atmosphere/Mood - a website for everyone who loves the era of music from an iconic 1960s Band
 Soft furnishings, warm light, a little bit of psychedelic. This website should appeal to a wide and diverse age group without excluding anyone. Target audience 20s and 30s right up to those in their 70s.
                                 -Ends-User Stories-Ends-
+<!---------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------->
 
 /* Features Left to Implement
@@ -318,7 +331,8 @@ Try to submit the form with all inputs valid and verify that a success message a
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 <!---------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------->
-####  Bugs or problems I discovered during testing:
+####  TESTING SECTION: Bugs or problems I discovered during testing:
+
 
 ##### Background Images on home page too big on mobile - iphone - ipad. Bug: UNRESOLVED
 
@@ -372,13 +386,22 @@ I am trying out different solutions
 }
 
 ###### I have now returned to the Previous Code I had briefly replaced - am adjusting media queries instead.
+
+For parallax effect I have been given 3 more approaches to try and resolve my mobile image effect issue
+1. Get rid of background-attachment fixed altogether
+2. Use @media queries to take it off on devices based on size (CI use this approach on their sample site no5).
+3. Use @support queries to take it off for iOS only (so iphones and ipads). This is the gold star approach!
+
+<
+
+
 <!---------------------------------------------------------------------------------------------------->
 ###### Spacings and responsiveness:
 
 • I need to work on spacings, margins and properly aligning items and elements on the site
 • Responsiveness still needs a bit more work e.g. on the tablet view, there is a white space to the right of the page on mobile and tablet views.
 
-<!---------------------------------------------------------------------------------------------------->
+!---------------------------------------------------------------------------------------------------->
 
 ##### Testing images on different browsers
 I had problems making my background images appear in my git hub website.
@@ -473,8 +496,9 @@ Many times due to local issues with cloud9 not being compatible with my server, 
 changes.
 
 #### Procedure at Remote site
-ii) Once I have pushed my commits to github I can configure GitHub Pages to publish my site's source files from master.
-iii) Having enabled this GitHub, navigate to my GitHub Pages site's repository.
+
+ii) Once I push commits to github I can configure GitHub Pages to publish my site's source files from master.
+iii) Having enabled this GitHub, then navigate to my GitHub Pages site's repository.
 
 IV) Under my repository name, I click  Settings. I then select source drop-down menu to select "master" or gh-pages as my GitHub Pages publishing source. I then click SAVE.
 

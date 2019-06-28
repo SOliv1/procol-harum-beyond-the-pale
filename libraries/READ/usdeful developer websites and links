@@ -1,0 +1,141 @@
+
+## Some Useful links/ examples and websites research in the building of my website:
+
+I refer to all the following in the building of my website:
+This list is by no means exhaustive. This is just a sample of useful information
+I have started to build on in my personal research library.
+<!---------------------------------------------------------------------------------------------------->
+#### Sign Up forms
+
+** to do** I build  a modal to create a "sign up" form to a newsletter.
+###(W3 schools.com: Example )###
+<div class="container">
+  <h2>Sign up</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open   Modal</button>
+<!---------------------------------------------------------------------------------------------------->
+
+### Images ###
+
+####Image Test Centre ####
+https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_center
+<!---------------------------------------------------------------------------------------------------->
+### CSS ###
+
+Modern Responsive
+https://www.w3schools.com/w3css/default.asp
+
+CSS Tricks - background position
+https://css-tricks.com/almanac/properties/b/background-position/
+https://www.w3schools.com/code/tryit.asp?filename=G5GDFYK3BA1U
+
+CSS Layout - The position Property
+https://www.w3schools.com/css/css_positioning.asp
+https://www.w3schools.com/code/tryit.asp?filename=G5GDCSBM7AGA
+
+CSS Style Examples
+https://www.w3.org/Style/Examples/007/units.en.html
+
+### Validation Services ####
+
+HTML Validation Service
+https://validator.w3.org/#validate_by_input
+
+CSS Validation Service
+https://jigsaw.w3.org/css-validator/validator.html.en
+
+Compare Text Files Service
+https://www.diffchecker.com/
+Comparing text to find the differences between two text files
+
+<!---------------------------------------------------------------------------------------------------->
+Multi columns
+
+https://www.w3.org/TR/css-multicol-1/
+<!---------------------------------------------------------------------------------------------------->
+
+Resolving image background not showing problems on mobiles
+https://stackoverflow.com/questions/26372127/background-fixed-no-repeat-not-working-on-mobile
+Another example:
+http://jsfiddle.net/vyu5L7kp/1/
+<!---------------------------------------------------------------------------------------------------->
+
+/* Testimonial images with object-fit: contain to preserve aspect ratio of image */
+Example:-
+
+.media img{
+   height: 150px;
+   object-fit: contain;
+   min-height: 100%;
+   max-height: none;
+   border-radius: 15% 15% 15% 15% / 10% 10% 10% 10% ;
+}
+
+#### HTML audio tag
+I used this as an audio base for listening to a sample of Procola Harum's music:-
+w3schools.com
+Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.
+However, I decided not to use this and replace it with the Cloud
+<!---------------------------------------------------------------------------------------------------->
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_audio
+<!---------------------------------------------------------------------------------------------------->
+#### Embed Video
+https://www.w3schools.com/html/html_youtube.asp
+(w3schools.com)
+HTML YouTube Videos
+Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.
+
+  i)  Upload the video to YouTube
+ ii)  Take a note of the video id
+iii)  Define an <iframe> element in your web page
+ iv)  Let the src attribute point to the video URL
+  v)  Use the width and height attributes to specify the dimension of the player
+ vi)  Add any other parameters to the URL (see below)
+
+I use this on my website to showcase examples of videos from the era of Procol Harum such as
+"Whiter Shade of Pale"
+
+In the "Anthology" section I would like to showcase many more videos in an overflow scroll to the right section. Use the scroll to the  right to access a collection of more videos.
+
+**Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.**
+<!---------------------------------------------------------------------------------------------------->
+#### Contact form:
+Go to the "Contact Us" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+<!---------------------------------------------------------------------------------------------------->
+Github
+References:
+https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
+
+<!---------------------------------------------------------------------------------------------------->
+### Bootstrap ###
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
+
+Thanks to Anna Greaves for her very helpful bootstrap demo Below:-
+https://ajgreaves.github.io/bootstrap-grid-demo/index.html
+
+<!---------------------------------------------------------------------------------------------------->
+### Responsive ###
+Create a responsive navigation with no JS!
+https://www.youtube.com/watch?v=8QKOaTYvYUA&t=820s
+
+Responsive Breakpoints:
+https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints
+
+<!---------------------------------------------------------------------------------------------------->
+### Pull Requests ###
+Click below link for further information regarding pull requests:-
+https://help.github.com/en/articles/about-pull-requests
+<!---------------------------------------------------------------------------------------------------->
+### Font Awesome ###
+https://fontawesome.com/start
+<!---------------------------------------------------------------------------------------------------->
