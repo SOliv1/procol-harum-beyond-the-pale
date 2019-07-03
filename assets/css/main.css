@@ -2,10 +2,21 @@
 
 /*--   Home-Page -------------------------------------------------- */
 
+
+
+
 body {
     font-family: 'Lato', sans-serif;
 }
 
+margin {
+    width:1200px;
+    left:auto;
+    right:auto;
+    top: 0;
+    bottom:0;
+   
+}
 /*--- dropdown-menu styles ---*/
 
 .navbar-nav .mr-auto ul {
@@ -58,7 +69,7 @@ li a:hover:not(.active) {
 
 /*-- Image Containers - creates a scroll flexible background ------*/
 
-.callout-container     {
+.callout-container  {
     height: 100vh;
     background: url("../images/poco-8.png") no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -591,14 +602,14 @@ p span {
 .form {
     position: relative;
     margin: 35px;
-    margin-top: 30px;
+    margin-top: 230px;
     margin-bottom: 0;
 }
 
 
 h5 .uppercase .text-center {
     font-weight: bold;
-    color: #000;
+    color: #fff;
 }
 
 p {
@@ -639,6 +650,14 @@ p {
 
 /*-- Big info disappears on mobiles to avoid conflict with social-links --*/
 
+ @media (min-width: 768px)    {
+    .callout-container {
+        color: #ce5a2b;
+        backgroundcolor: transparent;
+        }
+
+ }
+
 @media (min-width: 992px) {
     .bg-info .btn-btn-secondary {
         background-color: #ce5a2b;
@@ -650,7 +669,10 @@ p {
         border-color: #f05f40;
         font-size: 15px;
         float: right;
-    }
+        }
+}
+    
+
 
     .btn.btn-secondary:hover,
     .btn.btn-secondary:active,
@@ -659,8 +681,10 @@ p {
         background-color: #df4929;
         border-color: #df4929;
         color: #ce5a2b;
-    }
+        }
 
+        
+    
     /*styles for tablet */
     @media (min-width: 768px) {
         .media img {
@@ -682,10 +706,12 @@ p {
             line-height: 1.4;
 
         }
+    }
 
 
-        @media(min-width: 62em) {
-            .featurette-heading {
-                margin-top: 7rem;
-            }
+    @media (min-width: 62em)  {
+        .featurette-heading {
+            margin-top: 7rem;
         }
+
+}

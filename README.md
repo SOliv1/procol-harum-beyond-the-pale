@@ -333,6 +333,8 @@ In addition, you should mention in this section how your project looks and works
 <!---------------------------------------------------------------------------------------------------->
 ####  TESTING SECTION: Bugs or problems I discovered during testing:
 
+*This page can also be found on my bugs section in libraries https:./libraries/bugs*
+
 
 ##### Background Images on home page too big on mobile - iphone - ipad. Bug: UNRESOLVED
 
@@ -392,8 +394,17 @@ For parallax effect I have been given 3 more approaches to try and resolve my mo
 2. Use @media queries to take it off on devices based on size (CI use this approach on their sample site no5).
 3. Use @support queries to take it off for iOS only (so iphones and ipads). This is the gold star approach!
 
-<
+<!---------------------------------------------------------------------------------------------------->
+#### Overflow Home Page
 
+Had a problem with overflow on my page at the end of my project just before submitting:
+The url address is below:
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
 
 <!---------------------------------------------------------------------------------------------------->
 ###### Spacings and responsiveness:
