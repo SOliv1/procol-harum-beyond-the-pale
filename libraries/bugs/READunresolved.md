@@ -19,7 +19,7 @@ However, I have not resolved this one yet.
     background-attachment: scroll;
 }
 
-#### Overflow Home Page
+#### Overflow Home Page - Bootstrap positioning
 
 Had a problem with overflow on my page at the end of my project just before submitting:
 The url address is below:
@@ -30,7 +30,7 @@ The url address is below:
   outline: solid #f00 1px !important;
 }
 
-
+https://getbootstrap.com/docs/4.3/utilities/display/#hiding-elements
 
 https://code-institute-room.slack.com/files/UF94247RB/FJXTZFPRA/-.js
 

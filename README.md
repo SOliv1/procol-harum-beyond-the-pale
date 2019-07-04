@@ -46,6 +46,7 @@ provide access to videos and music samples from the past.
 <!---------------------------------------------------------------------------------------------------->
 
 ### Credits:
+
 My inspiration and Images come from:-
 1) website frameworks / structures
    i)   My Whiskey and CV projects in
@@ -53,10 +54,18 @@ My inspiration and Images come from:-
         so credit goes to the authors for my inspiration from these
         projects and I thank them.
   iii) All the support and encouragement from the "Slack" community, in particular another student    Anna Greaves, who publishes her blogs / explains on her conference calls and excellent videos  clarifying different aspects of the technological process, to newbies like me, who may not quite have grasped the technological language used the first time.   Her support on "Slack" among other very helpful students is much appreciated; and also my Mentor.  I finde Slack a useful tool; very much valued and recourceful community.
-
+       and Anthony O'Brian for his suggestions on how to rid the "overflow issues" on my home screen.  Much appreciated.  I was given a useful tool see below to spot overflow issues:-
+       
+       * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+       
  My inspiration for all album Images come from:-
 **cover art for the album "Prodigal Stranger" by the artist Procol Harum. The cover art copyright is believed to belong to the record label or the graphic artist(s).Credits**
-Source
+Source.
+
     iv) Audio and visual links to YouTube / Spotify / Amazon websites / wikipedia for their excellent content.
 
 2) website frameworks / structures
@@ -83,11 +92,12 @@ http://starling.rinet.ru/music/procol.htm
      V)   Audio links - Sound Cloud
        https://soundcloud.com/discover
 
-4) Gallery Features - <meta name="description" content="">
+4) ### Gallery Features - <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
     <title>Carousel Template · Bootstrap</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+
 
 
 ### Features
