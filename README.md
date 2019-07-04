@@ -357,6 +357,8 @@ In addition, you should mention in this section how your project looks and works
 
 *This page can also be found on my bugs section in libraries https:./libraries/bugs*
 
+*https: ./libraries/bugs/READunresolved.md*
+
 
 ##### Background Images on home page too big on mobile - iphone - ipad. Bug: UNRESOLVED
 
