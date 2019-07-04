@@ -3,8 +3,6 @@
 /*--   Home-Page -------------------------------------------------- */
 
 
-
-
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -101,25 +99,6 @@ li a:hover:not(.active) {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
-
-/*-----  media beyond deep scroll flexible background (alternative-img)  ------*/
-
-/*.container-fluid .callout-container .media img {*/
-/*    content: "";*/
-/*    display: block;*/
-/*    position: fixed;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    z-index: -10;*/
-/*    background: url("../images/backstageband.png") no-repeat center center;*/
-/*    -webkit-background-size: cover;*/
-/*    -moz-background-size: cover;*/
-/*    -o-background-size: cover;*/
-/*    background-size: cover;*/
-/*    background-attachment: scroll;*/
-/*}*/
 
 
 .opaque-overlay {
@@ -339,11 +318,18 @@ b {
 }
 
 /*-- Happenings --*/
+    h3 {
+        color:ffff;
+    }
 
-h3 {
+/*-- Concerts --*/
+
+.concerts  h3  {
     font-weight: bold;
-    color: #fff;
+    text-align: center;
+    color:#000;
 }
+
 
 
 h4 {
@@ -355,7 +341,13 @@ h4 {
     width: 35px;
 }
 
-/* css */
+ .email-link {
+    color: #6f42c1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* css ------------------------------------- */
 
 .wrapper {
     height: 100px;
@@ -370,7 +362,7 @@ h4 {
 }
 
 
-/*-- Anthology container --*/
+/*-- Anthology container ------------------------------*/
 
 
 .anthologies {
@@ -389,16 +381,13 @@ h4 {
     margin-bottom: 30px;
     font-size: medium;
 }
-a
-/* Beyond Deep media-container -- Audio */
+
+/*---------- Beyond Deep media-container  Audio ------------- */
 
 .audio {
 	width: 100%;
 	height: 166px;
 }
-
-
-
 
 
 .callout .beyond-jumbotron .text-center {
@@ -416,7 +405,7 @@ a
 }
 
 
-/* Buttons */
+/* ------ Buttons -------------------------------*/
 
 .btn--cta {
     font-weight: bold;
@@ -573,13 +562,8 @@ p span {
     height: 100%;
 }
 
-/* html
-    <div class="wrapper">
-        <div class="image"></div>
-    </div>
- end-html */
 
-/* css */
+/*---- css  ----*/
 
 .wrapper {
     height: 100px;
