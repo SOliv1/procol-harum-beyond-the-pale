@@ -97,8 +97,17 @@ http://starling.rinet.ru/music/procol.htm
     <meta name="generator" content="Jekyll v3.8.5">
     <title>Carousel Template · Bootstrap</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+    <!---------------------------------------------------------------------------------------------------->
+### Mentor - Comments:
 
+• You need to work on spacings, margins and properly aligning items and elements on the site
+• Responsiveness still needs a bit more work e.g. on the tablet view, there is a white space to the right of the page
 
+I understand the above comments and am working on this as there is still room for improvement.  Then I will be more proficient on getting the website exactly the way I want!
+However, I am happy with my efforts so far and hope that it will appeal to the accessors.
+
+<!---------------------------------------------------------------------------------------------------->
+#### CSS styles
 
 ### Features
   1) I use ####bootstrap#### which allows my website to be responsive from a mobile
