@@ -16,7 +16,10 @@ Html/ Css Validators
 https://validator.w3.org/nu/#textarea
 
 
-## Brief for Poco Harum
+## Brief for Poco Harum 
+
+##### A more comprehensive README.md file can be found in my libraries section:
+/README.md
 
 This is a website that has been given a complete facelift.  It has a bright, sassy appearance while capturing the "Swinging 60s" mood!
 I think I have provided a UX experience targeted at fans but also to encourage new visitors to the site.
@@ -97,7 +100,16 @@ http://starling.rinet.ru/music/procol.htm
     <meta name="generator" content="Jekyll v3.8.5">
     <title>Carousel Template · Bootstrap</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+    
+<!---------------------------------------------------------------------------------------------------->
 
+### Mentor - Comments:
+• You need to work on spacings, margins and properly aligning items and elements on the site
+• Responsiveness still needs a bit more work e.g. on the tablet view, there is a white space to the right of the page
+
+I understand the above comments and am working on this as there is still room for improvement.  Then I will be more proficient on getting the website exactly the way I want!
+However, I am happy with my efforts so far and hope that it will appeal to the accessors.
+<!---------------------------------------------------------------------------------------------------->
 
 
 ### Features
