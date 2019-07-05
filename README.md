@@ -132,14 +132,20 @@ However, I am happy with my efforts so far and hope that it will appeal to the a
                                     <li><a target="_blank" href="linkedin"><i class="fab fa-linkedin"></i></a></li>
 
 <!---------------------------------------------------------------------------------------------------->
-#### CSS styles
 
-#### Anchor links
 
-The facebook lead button is disabled.  However the hover effect works on the "facebook and icon".
-It is supposed to link via the <a> to the facebook in the social links section at the bottom of the page.
-There also should be anchor links from the bottom of the page to the centre and top of the website pages.  T
-hese have not been deployed as yet. But in the real world should be for easier navigation either via the scrolling effect or the anchor links.
+#### Anchor links and other links
+
+The facebook button at the bottom of the left hand page links to the facebook icon in Jumbrotron lead near the top of the home page.   The hover effect works on the "facebook and icon".
+It is supposed to link via the <a> to the facebook page at Procol Harum in the social links section at the bottom of the page.
+
+There also should be anchor links from the bottom of the page to the centre and top of the website pages.  
+hese have not been deployed as yet. But in the real world should be deployed for easier navigation either via the scrolling effect or the anchor links.
+
+I try a "scroll instruction" at the top of the left hand page before the ####About section#####.  However, it seems unnecessary as according to peer review it was noticed
+only after scrolling the website. 
+
+My email "hover-links" work by changing color on hover.
 
 #### Social links
 

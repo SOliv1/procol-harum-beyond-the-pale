@@ -248,7 +248,6 @@ a:hover {
 
 
 .container-fluid {
-    margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -389,7 +388,6 @@ h4 {
 	height: 166px;
 }
 
-
 .callout .beyond-jumbotron .text-center {
     height: 100vh;
 }
@@ -467,7 +465,6 @@ h4 {
 
 body {
     font-family: 'Lato', sans-serif;
-    padding-top: 25px;
     margin-top: auto;
     padding-bottom: 3rem;
     font-size: 20px;
