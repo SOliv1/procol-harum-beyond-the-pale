@@ -1,6 +1,6 @@
 
  ## README.md
-
+- python3 -m http.server
  ## A live demo:
 
  Can be found at StudentProject- My first milestone - user-centric-milestone website:https://soliv1.github.io/poco-harum-beyond-the-pale/
@@ -100,24 +100,14 @@ http://starling.rinet.ru/music/procol.htm
     <meta name="generator" content="Jekyll v3.8.5">
     <title>Carousel Template · Bootstrap</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
-<<<<<<< HEAD
+
     <!---------------------------------------------------------------------------------------------------->
 ### Mentor - Comments:
 
 • You need to work on spacings, margins and properly aligning items and elements on the site
 • Responsiveness still needs a bit more work e.g. on the tablet view, there is a white space to the right of the page
-=======
-    
-<!---------------------------------------------------------------------------------------------------->
 
-### Mentor - Comments:
-• You need to work on spacings, margins and properly aligning items and elements on the site
-• Responsiveness still needs a bit more work e.g. on the tablet view, there is a white space to the right of the page
 
-I understand the above comments and am working on this as there is still room for improvement.  Then I will be more proficient on getting the website exactly the way I want!
-However, I am happy with my efforts so far and hope that it will appeal to the accessors.
-<!---------------------------------------------------------------------------------------------------->
->>>>>>> ba07bf78db7c206578656ef6e27395c58abdb7b7
 
 I understand the above comments and am working on this as there is still room for improvement.  Then I will be more proficient on getting the website exactly the way I want!
 However, I am happy with my efforts so far and hope that it will appeal to the accessors.
