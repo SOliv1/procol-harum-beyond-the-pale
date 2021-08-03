@@ -1,5 +1,4 @@
 [![Jekyll site CI](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml/badge.svg)](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml)
-[![Build Status](https://travis-ci.com/SOliv1/aws-procol-harum.svg?branch=master)](https://travis-ci.com/SOliv1/aws-procol-harum)
 
  ## README.md
 - python3 -m http.server
