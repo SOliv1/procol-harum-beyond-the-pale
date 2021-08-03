@@ -1,3 +1,4 @@
+[![Jekyll site CI](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml/badge.svg)](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml)
 
  ## README.md
 - python3 -m http.server
@@ -32,6 +33,8 @@ The Audience has a clearer understanding of where they can access information in
 1) This website is for a target audience who appreciate the music and want to follow an iconic band from the 1960s. The fans both old and new
 are interested to know what is happening performance wise both at local venues, national and on tour.  The band are keen to keep the audience
 informed with their activities.
+
+[![Jekyll site CI](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml/badge.svg)](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml)
 
 2)   ####UI = navigation / user experience - visually attractive.
 User feels there is a clear interest in their needs - why they are here / learnablility - easy to understand / bite size information - keep information in bite size pieces to keep
