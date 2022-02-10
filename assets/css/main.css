@@ -196,14 +196,14 @@ p {
 
 a {
     color: #000;
-    text-decoration: none;
+    text-decoration: #000;
     background-color: transparent;
     text-align: center;
 }
 
 a:hover {
     color: #00BCD4;
-    text-decoration: none;
+    text-decoration: #000;
 }
 
 
