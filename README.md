@@ -1,4 +1,5 @@
 [![Jekyll site CI](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml/badge.svg)](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/jekyll.yml)
+[![pages-build-deployment](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/SOliv1/procol-harum-beyond-the-pale/actions/workflows/pages/pages-build-deployment)
 
  ## README.md
 - python3 -m http.server
