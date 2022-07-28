@@ -5,7 +5,7 @@
 - python3 -m http.server
  ## A live demo:
 
- Can be found at StudentProject- My first milestone - user-centric-milestone website:https://soliv1.github.io/poco-harum-beyond-the-pale/
+ Can be found at StudentProject- My first milestone - user-centric-milestone website:https://soliv1.github.io/procol-harum-beyond-the-pale/
 
 ## Technologies Used:
 
